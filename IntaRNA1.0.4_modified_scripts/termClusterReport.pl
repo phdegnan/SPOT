@@ -21,7 +21,7 @@
   foreach(@intaRNAoutlines) {
       my @split = split(/;/, $_);
           #print "$split[1]\n";
-          if ($split[19] =~ m/(\d+)/) { ##21??
+          if ($split[19] =~ m/(^\d+)/ || $split[21] =~ m/(^\d+)/ { ##21??
               $GeneID = $1;
 	      #print "[" . length($GeneID). "]\n";
 	      if(length($GeneID) == 8 ){$pid++;} ##added PHD
@@ -65,7 +65,7 @@
  #addList
  #WARNING: user should limit the number of genes in the list within 3000, or DAVID will turn down the service due to resource limitation.
  my $idType = "";
- if(($pid/$inputIdsBack) > 0.90){
+ if(($pid/$lengthgenelist) > 0.90){
  	print "Using GI numbers\n"; ##PD
  	$idType = 'PROTEIN_GI_ACCESSION'; ##PD
  }else{
