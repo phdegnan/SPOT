@@ -77,8 +77,13 @@ IntaRNA v1.0.4:
 	get_refseq_from_ftp.pl : Replacement code for get_refseq_from_ftp.sh
 	IntaRNA_wrapper.pl : Option added to use local GenBank files, use get_refseq_from_ftp.pl
 	rerun_enrichment.pl : code snippet re-running enrichment analysis from IntaRNA_Wrapper.pl
-	termClusterReport.pl : code added to handle GeneIDs vs GI Nos
+	termClusterReport.pl : code modified to handle GeneIDs vs GI Nos
 	plotting_script_intaRNA2.r : modified R script to plot consensus results
+
+CopraRNA v1.2.9
+	get_refseq_from_ftp.pl : Replacement code for get_refseq_from_ftp.sh
+	termClusterReport.pl : code modified to handle GeneIDs vs GI Nos
+
 
 Note: D3 Javascript libraries may or may not be accessible using existing framework
 to generate functional enrichment heatmaps (http://d3js.org/d3.v3.min.js). If problems
@@ -327,13 +332,13 @@ linebreaks and the .ptt file must be tab separated. Allowed input
 combinations:
 
 	.fna	.ptt	.gb or .gbk	Status	Action
-1.	X		X		X			okay	Start run
-2.	X		X					okay	Make .gb file, start run
-3.	X				X			okay 	Make .ptt file, start run
-4.			X		X			okay	Make .fna file, start run
-5.					X			okay 	Make .fna and .ptt file, start run
-6.	X							bad		Abort run
-7.			X					bad		Abort run
+1.	X	X	X		okay	Start run
+2.	X	X			okay	Make .gb file, start run
+3.	X		X		okay 	Make .ptt file, start run
+4.		X	X		okay	Make .fna file, start run
+5.			X		okay 	Make .fna and .ptt file, start run
+6.	X				bad	Abort run
+7.		X			bad	Abort run
 
 .ptt Files – This is a legacy GenBank annotation format. However, the
 StarPicker algorithm used here requires this format. This format is very
@@ -363,8 +368,8 @@ b3826	up
 
 With known binding sites:
 Locus	Expression	sRNA_start	sRNA_stop	mRNA_start	mRNA_stop
-b1101	down		168			187			-30			-9
-b3826	up			168			187			-96			-76
+b1101	down		168		187		-30		-9
+b3826	up		168		187		-96		-76
 
 
 Rockhopper *transcript.txt files – SPOT can read default output files
