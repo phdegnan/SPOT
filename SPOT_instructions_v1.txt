@@ -379,17 +379,20 @@ conform to expectations of the CopraRNA program:
 
 Data from each individual algorithm is preserved in the output folder for 
 manual investigation.
-
+	TargetRNA2_*txt	= TargetRNA2 Primary report
+	*.output	= Starpicker Primary report
+	intarna_websrv_table_truncated.csv = IntaRNA Primary report
+	
 SPOT generates several output files for further analysis:
 
 XLSX file – Primary file containing consensus table of sRNA-mRNA
 predictions from the 3 or 4 tools used in the run. File name prefix
 corresponds to run output prefix that was assigned (-o , default= TEST).
-Sheet 1 (complete.txt) shows the aligned predictions, p values, and
-coordinates for the predicted interaction for each gene. Sheet 2
-(summary.txt) has the counts predicted by each gene, and a summary
-letter and ranking based location and on the number of algorithms that
-found the same prediction.
+	Sheet 1 (complete.txt) shows the aligned predictions, p values, and
+	coordinates for the predicted interaction for each gene. 
+	Sheet 2 (summary.txt) has the counts predicted by each gene, and a summary
+	letter and ranking based location and on the number of algorithms that
+	found the same prediction.
 
 A	 	Prediction overlaps a known binding site
 B-->E	Predictions that are not coincident with a known binding site when was 
@@ -402,8 +405,9 @@ Sheet 2 (summary.txt) which can be imported to Illustrator.
 
 COLLATED_RESULTS folder – This folder contains plots generated based on
 IntaRNA tools showing the localization of binding sites of the mRNA and
-sRNA as *pdf, *png and *ps files. In addition, if CopraRNA is run,
-functional heatmap data are included here as well.
+sRNA as *pdf, *png and *ps files. In addition, a functional enrichment 
+heatmap is included as a *pdf file similar to those individually provided
+by IntaRNA and CopraRNA - however it represents the collated results.
 
 
 
