@@ -332,8 +332,8 @@ if ($ncbi_acc) { ## edit 1.0.1
    system "cp $PATH_HOME/index-thumb.html ."; ## edit 1.0.2
    system "cp $PATH_HOME/index-pdf.html ."; ## edit 1.0.3
    #$PATH_HOME/phantomjs
-   system "/usr/local/bin/phantomjs $PATH_HOME/rasterize.js ./index-thumb.html enriched_heatmap_big.png";
-   system "/usr/local/bin/phantomjs $PATH_HOME/rasterize.js ./index-pdf.html enriched_heatmap_big.pdf"; ## edit 1.0.3
+   system "$PATH_HOME/phantomjs $PATH_HOME/rasterize.js ./index-thumb.html enriched_heatmap_big.png";
+   system "$PATH_HOME/phantomjs $PATH_HOME/rasterize.js ./index-pdf.html enriched_heatmap_big.pdf"; ## edit 1.0.3
    system "rm index-thumb.html"; ## edit 1.0.2
    system "rm index-pdf.html"; ## edit 1.0.3
 
