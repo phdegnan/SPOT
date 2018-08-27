@@ -1070,8 +1070,8 @@ system("/usr/bin/convert -density '300' -resize '700' -flatten -rotate 90 mRNA_r
 
 # Run Copra enrichment on collated/selected results
 
-print "\n$INTADIR/rerun_enrichment.pl $out\_composite_websrv_tbl.csv \n\n";
-system("$INTADIR/rerun_enrichment.pl $out\_composite_websrv_tbl.csv ");
+print "\n/scripts/rerun_enrichment_copra.pl $out\_composite_websrv_tbl.csv \n\n";
+system("/scripts/rerun_enrichment_copra.pl $out\_composite_websrv_tbl.csv ");
 
 chdir($PWD);
 
@@ -1147,6 +1147,9 @@ sub SHARED{
 	my @BS=();
 	my @FS=();
 	my $m="";my $s="";my $x="";my $W="";my $y="";my $z="";
+	my $no_of_tools;
+	if($copra_genomes && $rnas){$no_of_tools=3)
+	else{$no_of_tools=2};
 	for $i (0..3){
 		if($LETTERS[$i] eq "B"){
 			push(@BS,$i);
@@ -1263,7 +1266,7 @@ sub SHARED{
 		}
 	}
 	my $return_list="";
-	for my $i (0..3){
+	for my $i (0..$no_of_tools){
 		$return_list.="$LETTERS[$i]\t";
 	}
 	my $twoormore=10;
