@@ -336,7 +336,7 @@ while($l=<IN>){
 		$INTA{$cols[2]}{MSTA}=$cols[5] - $upstream - 1;
 		$INTA{$cols[2]}{MEND}=$cols[6] - $upstream - 1;
 		
-		$GENEID{$cols[2]}=$cols[21];
+		#$GENEID{$cols[2]}=$cols[21];
 	
 		@lines=split(/\\n/,$cols[19]);
 		foreach $r (@lines){
@@ -347,6 +347,15 @@ while($l=<IN>){
 	
 	}
 }close(IN);
+
+#For GeneIDs
+open(IN,"<intarna_websrv_table.csv") or die "cannot open intarna_websrv_table.csv\n";
+while($l=<IN>){
+	chomp($l);
+	@cols=split(/;/,$l);
+	$GENEID{$cols[2]}=$cols[21];
+}close(IN);
+
 ## Debug:
 #print "$INTA{b1101}{GENE}\t$INTA{b1101}{EVAL}\t$INTA{b1101}{PVAL}\t$INTA{b1101}{SSTA}\t$INTA{b1101}{SEND}\t$INTA{b1101}{MSTA}\t$INTA{b1101}{MEND}\n";
 #print  $INTA{b1101}{STRUCTURE};
