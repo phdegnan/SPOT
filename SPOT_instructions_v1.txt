@@ -78,6 +78,12 @@ IntaRNA v1.0.4:
 	IntaRNA_wrapper.pl : Option added to use local GenBank files, use get_refseq_from_ftp.pl
 	rerun_enrichment.pl : code snippet re-running enrichment analysis from IntaRNA_Wrapper.pl
 	termClusterReport.pl : code added to handle GeneIDs vs GI Nos
+	plotting_script_intaRNA2.r : modified R script to plot consensus results
+
+Note: D3 Javascript libraries may or may not be accessible using existing framework
+to generate functional enrichment heatmaps (http://d3js.org/d3.v3.min.js). If problems
+are encountered, it is possible to edit the master html files in IntaRNA and CopraRNA
+to use a local version of d3.v3.min.js .
 
 Be sure all programs are added to the user path and all path references in
 StarPicker, IntaRNA, and CopraRNA match your system installation.
