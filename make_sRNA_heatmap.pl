@@ -20,7 +20,7 @@ $header=shift(@lines);
 $total_columns=$#cols;
 $total_rows=$#lines;
 #print "[$total_columns][$total_rows]\n";
-if($total_columns == 13 || $total_columns ==15){
+if($total_columns == 14 || $total_columns ==16){
 	# only three columns
 	@set=(-4,-3,-2);
 	$head="\tt\ts\ti\n";
