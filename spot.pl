@@ -1157,8 +1157,8 @@ sub SHARED{
 	my @FS=();
 	my $m="";my $s="";my $x="";my $W="";my $y="";my $z="";
 	my $no_of_tools;
-	if($copra_genomes && $rnas){$no_of_tools=3)
-	else{$no_of_tools=2};
+	if($copra_genomes && $rnas){$no_of_tools=3}
+	else{$no_of_tools=2}
 	for $i (0..3){
 		if($LETTERS[$i] eq "B"){
 			push(@BS,$i);
