@@ -1082,6 +1082,12 @@ system("/usr/bin/convert -density '300' -resize '700' -flatten -rotate 90 mRNA_r
 print "\n/scripts/rerun_enrichment_copra.pl $out\_composite_websrv_tbl.csv \n\n";
 system("/scripts/rerun_enrichment_copra.pl $out\_composite_websrv_tbl.csv ");
 
+#Rename files. No files in this directory are required for re-analysis.
+@files2rename=("enrichment.txt","copra_heatmap.html","CopraRNA_result_all.csv","enriched_heatmap_big.pdf","mRNA_regions.pdf","mRNA_regions.png","mRNA_regions.ps","sRNA_regions.pdf","sRNA_regions.png","sRNA_regions.ps","termClusterReport.txt");
+foreach $i (@files2rename){
+	system("mv $i $out\_$i");
+}	
+
 chdir($PWD);
 
 unless($skip =~ /[Yy]/){ 
