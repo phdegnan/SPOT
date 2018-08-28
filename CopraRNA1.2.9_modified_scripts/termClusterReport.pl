@@ -26,9 +26,10 @@
       if($split[1]) { # check if entry is not blank for org. of interest
           if ($split[1] =~ m/GeneID:(\d+)\)/) {
               $GeneID = $1;
-          }elsif($split[1] =~ m/GI:(\d+)\)/) {##PD
-              $GeneID = $1;
-	      $pid++;
+          #}elsif($split[1] =~ m/GI:(\d+)\)/) {##PD
+          #   $GeneID = $1;
+	  #    $pid++;
+		if(length($GeneID) >= 8 ){$pid++;} ##added PHD
           }
           if($pval <= $pvalcutoff) {
                push(@genelist, $GeneID);
@@ -67,7 +68,7 @@
  #addList
  #WARNING: user should limit the number of genes in the list within 3000, or DAVID will turn down the service due to resource limitation.
  my $idType = "";
- if(($pid/$lengthback ) >= 0.90){	##PD
+ if(($pid/$lengthgenelist ) >= 0.90){	##PD
  	$idType = 'PROTEIN_GI_ACCESSION';
  }else{
  	$idType = 'ENTREZ_GENE_ID'; 	##PD
