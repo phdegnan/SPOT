@@ -14,9 +14,9 @@ v1 Aug 2018
 7.	References
 
 
-Cite: A.M. King, C.K. Vanderpool, and P.H. Degnan. Systematic evaluation
-of computational and experimental methods for bacterial small RNA target
-identification.
+Cite: A.M. King, C.K. Vanderpool, and P.H. Degnan. sRNA-target Prediction 
+Organizing Tool (SPOT) integrates computational and experimental data to 
+facilitate functional characterization of bacterial small RNAs 
 
 
 
@@ -433,9 +433,9 @@ Kery MB, Feldman M, Livny J, Tjaden B. 2014. TargetRNA2: identifying
 targets of small regulatory RNAs in Bacteria. Nucleic Acids Research
 42:W124-129.
 
-King AM, Vanderpool CK, and Degnan PH. Systematic evaluation of
-computational and experimental methods for bacterial small RNA target
-identification.
+King AM, Vanderpool CK, and Degnan PH. sRNA-target Prediction Organizing 
+Tool (SPOT) integrates computational and experimental data to facilitate 
+functional characterization of bacterial small RNAs. 
 
 McClure R, Balasubramanian D, Sun Y, Bobrovskyy M, Sumby P, Genco CA,
 Vanderpool CK, Tjaden B. 2013. Computational analysis of bacterial
