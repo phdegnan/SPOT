@@ -83,7 +83,7 @@ IntaRNA v1.0.4:
 CopraRNA v1.2.9
 	get_refseq_from_ftp.pl : Replacement code for get_refseq_from_ftp.sh
 	termClusterReport.pl : code modified to handle GeneIDs vs GI Nos
-
+	get_CDS_from_gbk.pl : code modified to skip and flag GenBank files not present in kegg2refseqnew.csv list
 
 Note: D3 Javascript libraries may or may not be accessible using existing framework
 to generate functional enrichment heatmaps (http://d3js.org/d3.v3.min.js). If problems
