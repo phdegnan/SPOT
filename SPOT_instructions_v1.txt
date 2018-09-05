@@ -363,8 +363,8 @@ this approach was used in the manuscript to perform a ‘reverse’
 search. For a ‘reverse’ search the PTT file is edited to ONLY include 
 the known sRNAs. Then, the user supplies the UTR or putative sRNA 
 binding region to SPOT as a fasta file if it were the sRNA. ‘Reverse’ 
-searches cannot use CopraRNA and as sRNAs may (do) not have GI 
-numbers or GeneIDs no functional enrichment plots will be produced. 
+searches cannot use CopraRNA and as sRNAs do not have GI numbers and may 
+not have GeneIDs no functional enrichment plots will be produced. 
 This may result in several warnings when the SPOT is run, however it 
 should not influence the final composite predictions.
 
