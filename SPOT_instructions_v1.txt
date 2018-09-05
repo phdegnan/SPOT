@@ -260,7 +260,8 @@ sgrS.fasta
 sgrS_diff.txt
 NC_000913.fna
 NC_000913.ptt
-$ spot.pl -r sgrS.fasta -l sgrS_diff.txt -u 150 -d 100 -o relaxed -a NC_000913 -g Y
+$ spot.pl -r sgrS.fasta -l sgrS_diff.txt -u 150 -d 100  -c '0.5 0.001 un' \
+	-o relaxed -a NC_000913 -g Y
 
 
 Note: PTT files can be easily generated in Excel. Allowing for
@@ -300,7 +301,7 @@ NC_000913_SgrS_transcripts.txt
 sgrS.fasta
 sgrS_homologs.fasta
 $ spot.pl -r sgrS.fasta -t NC_000913_SgrS_transcripts.txt -o express -a NC_000913 \
-	-m sgrS_homologs.fasta -n 'NC_002695 NC_011740'
+	-m sgrS_homologs.fasta -n 'NC_002695 NC_011740' -u 150 -d 100
 
 
 When the jobs have completed compare your results to the files in the corresponding 
@@ -327,9 +328,9 @@ all must have the same prefix and end in the following suffixes:
 .ptt		Protein translation table – gene annotation
 .gb or .gbk	Genbank file
 
-Files without these suffixes will be ignored. All must have unix
+Files without these suffixes will be ignored. All must have Unix
 linebreaks and the .ptt file must be tab separated. Allowed input
-combinations:
+combinations include:
 
 	.fna	.ptt	.gb or .gbk	Status	Action
 1.	X	X	X		okay	Start run
@@ -346,7 +347,6 @@ easy to generate in Excel and can allow users of SPOT to customize their
 annotations. See example:
 
 
-
 Escherichia coli str. K-12 substr. MG1655, complete genome - 1..4641652	
 4141 proteins								
 Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
@@ -355,6 +355,18 @@ Location	Strand	Length	PID	Gene	Synonym	Code	COG	Product
 2801..3733	+	310		thrB	b0003	-	-	homoserine kinase
 3734..5020	+	428		thrC	b0004	-	-	L-threonine synthase
 
+Note: As indicated above, customization of PTT files allows users to 
+correct or change annotations based on new data. Furthermore, by 
+modifying PTT files RNAs can be included in the annotation. First, 
+this allows for sRNA – RNA interactions to be identified. Second, 
+this approach was used in the manuscript to perform a ‘reverse’ 
+search. For a ‘reverse’ search the PTT file is edited to ONLY include 
+the known sRNAs. Then, the user supplies the UTR or putative sRNA 
+binding region to SPOT as a fasta file if it were the sRNA. ‘Reverse’ 
+searches cannot use CopraRNA and as sRNAs may (do) not have GI 
+numbers or GeneIDs no functional enrichment plots will be produced. 
+This may result in several warnings when the SPOT is run, however it 
+should not influence the final composite predictions.
 
 
 Differentially expressed genes – Lists of differential genes can be
