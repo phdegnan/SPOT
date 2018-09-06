@@ -54,11 +54,11 @@ Input parameters:
 \n\nExample run to examine entire genome target mRNAs:
 $0 -r sgrS.fasta -o stringent -a NC_000913 \n
 Example of running for select target mRNAs:
-$0 -r sgrS.fasta -l sgrS_diff.txt -u 150 -d 100 -o relaxed -a NC_000913\n
+$0 -r sgrS.fasta -l sgrS_diff.txt -u 150 -d 100 -c '0.5 0.001 un' -o relaxed -a NC_000913\n
 Example of running for reanalysis of data with different filters:
 $0 -r sgrS.fasta -l sgrS_diff.txt -a NC_000913 -o changed_50_30 -b -50 -e 30 -z Y\n
 Example run using Rockhopper results and CopraRNA :
-$0 -r sgrS.fasta -t NC_000913_SgrS_transcripts.txt -o express -a NC_000913 -m sgrS_homologs.fasta -n 'NC_002695 NC_008563' \n\n\n";	
+$0 -r sgrS.fasta -t NC_000913_SgrS_transcripts.txt -o express -a NC_000913 -m sgrS_homologs.fasta -n 'NC_002695 NC_008563' -u 150 -d 100\n\n\n";	
 	exit;
 }
 
