@@ -1,0 +1,17 @@
+[
+{"flagF":1,"fMax":3,"fNum":1,"feature":"eco02060:Phosphotransferase system (PTS)","flagS":1,"sMax":5,"sNum":1,"source":"b2416","color":"#ffb1b1","value":0.0095898,"group":"1:1.69:#ff0000"},
+{"flagF":1,"fMax":3,"fNum":2,"feature":"GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system","flagS":0,"sMax":5,"sNum":1,"source":"b2416","color":"#ffb1b1","value":0.0095898,"group":"1:1.69:#ff0000"},
+{"flagF":1,"fMax":3,"fNum":3,"feature":"GO:0008643~carbohydrate transport","flagS":0,"sMax":5,"sNum":1,"source":"b2416","color":"#ffb1b1","value":0.0095898,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":1,"feature":"eco02060:Phosphotransferase system (PTS)","flagS":1,"sMax":5,"sNum":2,"source":"b2167","color":"#ffafaf","value":0.0082429,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":2,"feature":"GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system","flagS":0,"sMax":5,"sNum":2,"source":"b2167","color":"#ffafaf","value":0.0082429,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":3,"feature":"GO:0008643~carbohydrate transport","flagS":0,"sMax":5,"sNum":2,"source":"b2167","color":"#ffafaf","value":0.0082429,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":1,"feature":"eco02060:Phosphotransferase system (PTS)","flagS":1,"sMax":5,"sNum":3,"source":"b2934","color":"#ff9d9d","value":0.0028380,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":2,"feature":"GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system","flagS":0,"sMax":5,"sNum":3,"source":"b2934","color":"#ff9d9d","value":0.0028380,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":3,"feature":"GO:0008643~carbohydrate transport","flagS":0,"sMax":5,"sNum":3,"source":"b2934","color":"#ff9d9d","value":0.0028380,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":1,"feature":"eco02060:Phosphotransferase system (PTS)","flagS":1,"sMax":5,"sNum":4,"source":"b1101","color":"#ff9a9a","value":0.0023363,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":2,"feature":"GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system","flagS":0,"sMax":5,"sNum":4,"source":"b1101","color":"#ff9a9a","value":0.0023363,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":3,"feature":"GO:0008643~carbohydrate transport","flagS":0,"sMax":5,"sNum":4,"source":"b1101","color":"#ff9a9a","value":0.0023363,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":1,"feature":"eco02060:Phosphotransferase system (PTS)","flagS":1,"sMax":5,"sNum":5,"source":"b3578","color":"#ffffff","value":0.0158717,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":2,"feature":"GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system","flagS":0,"sMax":5,"sNum":5,"source":"b3578","color":"#ffffff","value":0.0158717,"group":"1:1.69:#ff0000"},
+{"flagF":0,"fMax":3,"fNum":3,"feature":"GO:0008643~carbohydrate transport","flagS":0,"sMax":5,"sNum":5,"source":"b3578","color":"#ffbaba","value":0.0158717,"group":"1:1.69:#ff0000"}
+]

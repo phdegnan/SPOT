@@ -1,0 +1,15 @@
+2.37788085746534	2.14727965982055																								
+12	2	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2									
+Entrez GeneID	CopraRNA_pValue	Locustag	GeneName		IntaRNA energy	IntaRNA p-Value	start mRNA	end mRNA	start ncRNA	end ncRNA	72.25  GO:0046323~glucose import	56.19  GO:0015758~glucose transport	7.8  GO:0008643~carbohydrate transport	25.29  GO:0008645~hexose transport	14.05  GO:0015749~monosaccharide transport	9.37  GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system	18.73  GO:0010038~response to metal ion	21.75  GO:1990267~response to transition metal nanoparticle	10.81  GO:0010035~response to inorganic substance	56.19  GO:0010043~response to zinc ion	15.8  GO:0000041~transition metal ion transport	2.6  signal peptide	6.83  GO:0030001~metal ion transport	3.86  GO:0006812~cation transport	2.36  GO:0006811~ion transport
+226524697	0.001	b4662	b4662 - sgrT	b4662 - sgrT	-100	0	1	83	1	83	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+16129771	0.001	b1817	b1817 - manX	b1817 - manX	-100	0	1	83	1	83	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+16129064	0.001	b1101	b1101 - ptsG	b1101 - ptsG	-100	0	1	83	1	83	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0
+16130088	0.001	b2150	b2150 - mglB	b2150 - mglB	-100	0	1	83	1	83	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0
+16131861	0.001	b4035	b4035 - malK	b4035 - malK	-100	0	1	83	1	83	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+16128556	0.001	b0573	b0573 - cusF	b0573 - cusF	-100	0	1	83	1	83	0	0	0	0	0	0	1	1	1	1	0	1	0	0	0
+16129812	0.001	b1859	b1859 - znuB	b1859 - znuB	-100	0	1	83	1	83	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1
+90111346	0.001	b1857	b1857 - znuA	b1857 - znuA	-100	0	1	83	1	83	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1
+16128555	0.001	b0572	b0572 - cusC	b0572 - cusC	-100	0	1	83	1	83	0	0	0	0	0	0	1	1	1	0	1	1	1	1	1
+16129919	0.001	b1973	b1973 - zinT	b1973 - zinT	-100	0	1	83	1	83	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0
+16129141	0.001	b1178	b1178 - pliG	b1178 - pliG	-100	0	1	83	1	83	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+16129683	0.001	b1729	b1729 - ydjN	b1729 - ydjN	-100	0	1	83	1	83	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1

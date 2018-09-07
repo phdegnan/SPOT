@@ -1,0 +1,8 @@
+1.69391600234141													
+5	1	1	1	1									
+Entrez GeneID	CopraRNA_pValue	Locustag	Locustag.1	Locus_tag	IntaRNA energy	p-Value	start mRNA	end mRNA	start ncRNA	end ncRNA	eco02060:Phosphotransferase system (PTS)	GO:0009401~phosphoenolpyruvate-dependent sugar phosphotransferase system	GO:0008643~carbohydrate transport
+16130342	0.0095898	b2416	b2416	b2416	-15.5962	0.0095898	128	176	126	177	1	1	1
+16130105	0.0082429	b2167	b2167	b2167	-15.8778	0.0082429	164	192	167	194	1	1	1
+16130835	0.0028380	b2934	b2934	b2934	-17.8772	0.0028380	161	198	166	195	1	1	1
+16129064	0.0023363	b1101	b1101	b1101	-18.2452	0.0023363	123	142	168	187	1	1	1
+49176375	0.0158717	b3578	b3578	b3578	-14.6620	0.0158717	 91	112	166	190	0	0	1

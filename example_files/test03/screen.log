@@ -1,0 +1,162 @@
+
+=========Prepping RefSeq Files====================
+[Wed Aug 29 21:22:48 UTC 2018]
+
+
+=========Starting Searches========================
+[Wed Aug 29 21:22:48 UTC 2018]
+
+/software/starpicker/sTarPicker_global2.pl  -srna sgrS.fasta -gen NC_000913.fna -ptt NC_000913.ptt -th 0.001 -u 150 -d 100 -seed 6 &
+
+java -jar TargetRNA2.jar -a 150 -b 100 -l 7 -y -g /home/ubuntu/example_files/test02_results/NC_000913 -s /home/ubuntu/example_files/test02_results/sgrS.fasta -d Bacteria -o /home/ubuntu/example_files/test02_results/TargetRNA2_relaxed.txt -p 0.5
+
+/software/IntaRNA1.0.4/IntaRNA_wrapper.pl -bindseq sgrS.fasta -ncbiacc NC_000913 -ntupstream 150 -ntdownstream 100 -region 5utr -bpinseed 6 -genbank Y &
+
+RUNNING[17615][Wed Aug 29 21:22:52 UTC 2018]
+COMPLETED[17615][Wed Aug 29 21:25:19 UTC 2018]
+Outside termClusterReport.pl
+ncbi_acc[NC_000913]
+/software/IntaRNA1.0.4/termClusterReport.pl intarna_websrv_table_ncbi.csv
+length gene list: 50
+length background: 4140
+
+User authentication: true
+Using GI numbers
+[PROTEIN_GI_ACCESSION]
+
+1.0 of list was mapped
+
+0.9992753623188406 of list was mapped
+
+Valid categories: 
+BBID,BIOCARTA,GOTERM_BP_FAT,COG_ONTOLOGY,INTERPRO,KEGG_PATHWAY,OMIM_DISEASE,PIR_SUPERFAMILY,SMART,UP_SEQ_FEATURE
+
+Total TermClusterRecords: 11
+
+termClusterReport.txt generated
+Loading required package: seqinr
+null device 
+          1 
+[1] 3
+[1] 3
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+RUNNING[17616][Wed Aug 29 21:25:19 UTC 2018]
+COMPLETED[17616][Fri Aug 31 12:27:39 UTC 2018]
+RUNNING[17751][Fri Aug 31 12:27:39 UTC 2018]
+COMPLETED[17751][Fri Aug 31 12:27:39 UTC 2018]
+
+=========Jobs Complete============================
+
+=========Reading/Saving Raw Results===============
+[Fri Aug 31 12:27:39 UTC 2018]
+
+=========Sig. different expression================
+[Fri Aug 31 12:27:40 UTC 2018]
+b4662	up	
+b4577	up	
+b1973	up	
+b0573	down	
+b1101	down	
+b0572	down	
+b0296	up	
+b4506	up	
+b1857	up	
+b1856	up	
+b2152	down	
+b1178	up	
+b3433	down	
+b1658	down	
+b2012	down	
+b1817	down	
+b1859	up	
+b3826	up	
+b1858	up	
+b2153	down	
+b1729	down	
+b4035	up	
+b2150	up	
+
+=========Collating Results========================
+[Fri Aug 31 12:27:40 UTC 2018]
+
+=========Final summary Plots======================
+[Fri Aug 31 12:27:40 UTC 2018]
+/home/ubuntu/example_files/test02_results/COLLATED_RESULTS_relaxed
+
+/usr/bin/R --slave -f /software/IntaRNA1.0.4/plotting_script_intaRNA2.r 
+
+Loading required package: seqinr
+null device 
+          1 
+
+/software/CopraRNA/1.2.9/rerun_enrichment_copra.pl relaxed_composite_websrv_tbl.csv 
+
+
+Running /software/CopraRNA/1.2.9/rerun_enrichment_copra.pl on relaxed_composite_websrv_tbl.csv
+length gene list: 22
+length background: 4140
+
+User authentication: true
+
+1.0 of list was mapped
+
+0.9992753623188406 of list was mapped
+
+Valid categories: 
+BBID,BIOCARTA,GOTERM_BP_FAT,COG_ONTOLOGY,INTERPRO,KEGG_PATHWAY,OMIM_DISEASE,PIR_SUPERFAMILY,SMART,UP_SEQ_FEATURE
+
+Total TermClusterRecords: 2
+
+termClusterReport.txt generated
+cp /software/CopraRNA/1.2.9/copra_heatmap.html .
+/usr/bin/R --slave -f /software/CopraRNA/1.2.9/extract_functional_enriched.r
+/software/CopraRNA/1.2.9/make_heatmap_json.pl enrichment.txt
+/usr/local/bin/phantomjs /software/CopraRNA/1.2.9/rasterize.js ./index-thumb.html enriched_heatmap_big.png
+mv: cannot stat 'mRNA_regions.png': No such file or directory
+mv: cannot stat 'sRNA_regions.png': No such file or directory
+
+/scripts/make_sRNA_heatmap.pl relaxed relaxed_summary.txt 
+
+Make heatmap pdf(s) of summary.txt file for up to the 1st 96 entries
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+
+/scripts/make_sRNA_xlsx.pl relaxed relaxed_complete.txt relaxed_summary.txt 
+
+ Subject: spot.pl job relaxed complete
+ To: patrickd@ucr.edu
+  Content-type: text/plain
+
+ 
+Dear User,
+
+spot.pl job relaxed has completed. Login to retrieve your results.
+
+
+Thanks,
+Admin
+
+
+=========Complete=================================
+[Fri Aug 31 12:30:02 UTC 2018]

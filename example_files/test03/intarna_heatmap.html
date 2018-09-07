@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>copraRNA-viewer</title>
+    <style>
+    	rect.bordered {
+        stroke: #BABABA;
+        stroke-width:1px;   
+      }
+
+      text.mono {
+        font-size: 8pt;
+        font-family: sans-serif;
+        fill: #999999;
+      }
+      
+      text.label {
+      	font-size: 9pt;
+        font-family: sans-serif;
+        fill: #575757;
+      }
+      
+      rect:hover {
+  		opacity: 0.9;
+  		stroke: #fffffa;
+  		stroke-width:2px;
+     }
+     
+     
+     
+     .bar rect {
+	  fill: steelblue;
+	}
+	
+	.bar text.value {
+	  fill: black;
+	}
+	
+	.axis {
+	  shape-rendering: crispEdges;
+	}
+	
+	.axis path {
+	  fill: none;
+	}
+	
+	.x.axis line {
+	  stroke: #fff;
+	  stroke-opacity: .8;
+	}
+	
+	.y.axis path {
+	  stroke: black;
+	}
+
+     
+     
+    </style>
+<!-- https://d3js.org/d3.v3.min.js -->
+    <script src="/scripts/d3.v3.min.js"></script>
+  </head>
+  
+  
+  <body>
+  	<div id="chart"></div>
+  	<div id="vis"></div>
+    <script type="text/javascript">
+    	var margin = { top: 50, right: 0, bottom: 100, left: 250 },
+          width  = 4000 - margin.left - margin.right,
+          height = 4000 - margin.top - margin.bottom,
+          gridSize = Math.floor(width / 42),
+          legendElementWidth = gridSize*2;
+    
+    	var runX = 0;
+    	var runY = 0;
+    	var tmpMax = 0;
+    	var maxVal = 0;
+    	var groupPara = new Array();
+    	var maxColRow = 0;
+    	var groupNum  = 0;
+    	var groupLabelMax = 0;
+    	var maxLabel = 0;
+    	
+    
+    	d3.json("copraRNA.json", function(data){
+    		var colN = 0;
+        	var rowN = 0;
+    		data.forEach(function(d,i) {
+        		colN = d.fMax;
+        		rowN = d.sMax;
+        		
+        		var tmpL = d.feature.length;
+        		
+        		if(tmpL > maxLabel){
+        			maxLabel = tmpL;
+        		}
+        		
+        		if(i == 0){
+        			var str   = d.group;
+        			groupPara = str.split(';');
+        		}
+    		});
+    		
+    		
+    		groupPara.forEach(function(d,i){
+    			tmpMax = d.split(":");
+				
+				if(tmpMax[1] > maxVal){
+					maxVal = tmpMax[1];
+				}
+				groupNum = groupNum + 1; 
+    		});
+    		
+    		if(colN > rowN ){
+    			maxColRow = colN;
+    		}else{
+    			maxColRow = rowN;
+    		}
+    		if(maxColRow > groupNum){
+    			groupLabelMax = maxColRow;
+    		}else{
+    			groupLabelMax = groupNum;
+    		}
+    		
+    		
+    		if(maxColRow < 10){
+    			width  = maxColRow * 30 + 800 - margin.left - margin.right;
+	    		height = maxColRow * 40 + (groupLabelMax * 5) - margin.top - margin.bottom;
+	    		gridSize = 16;
+	          	legendElementWidth = gridSize;
+    		}else if(maxColRow < 100){
+    			width  = maxColRow * 30 + 800 - margin.left - margin.right;
+	    		height = maxColRow * 30 + (groupLabelMax * 5) - margin.top - margin.bottom;
+	    		gridSize = 16;
+	          	legendElementWidth = gridSize;
+    		}else{
+    			width  = maxColRow * 30 + 800 - margin.left - margin.right;
+    			height = maxColRow * 30 + (groupLabelMax * 5) - margin.top - margin.bottom;
+	    		gridSize = 20;
+	          	legendElementWidth = gridSize;
+    		}
+    		
+    		
+    		var svg = d3.select("#chart").append("svg")
+    			.attr("width", width + margin.left + margin.right)
+              	.attr("height", height + margin.top + margin.bottom)
+              	.append("g")
+              	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    		
+    		var yLabels = svg.selectAll(".yLabel")
+    			.data(data)
+    			.enter()
+    			.append("text")
+    			.attr("class", "label")
+    			.text(function(d){
+    				if(d.flagS > 0){
+    					return d.source;
+    				}
+    			})
+    			.attr("x", 0)
+                .attr("y", function (d, i) { 
+                	if(d.flagS > 0){
+                		var tmp = runY * gridSize;
+                		runY = runY + 1;
+                		return tmp;
+                	}
+                })
+                .style("text-anchor", "end")
+                .attr("transform", "translate(-6," + gridSize / 1.5 + ")");
+    		
+    		var xLabels = svg.selectAll(".xLabel")
+    			.data(data)
+    			.enter()
+    			.append("text")
+    			.attr("class", "label")
+    			.text(function(d){
+    				if(d.flagF > 0){
+    					//return d.feature;
+    					return d.fNum;
+    				}
+    			})
+    			.attr("x", function(d, i){
+    				if(d.flagF > 0){
+    					var tmp = runX * gridSize;
+    					runX = runX + 1;
+    					return tmp;
+    				}
+    			})
+    			.attr("y", 0)
+    			.style("text-anchor", "middle")
+    			.attr("transform", "translate(" + gridSize / 2 + ", -6)");
+            	//.attr("transform", function(d) {
+                //	return "rotate(-65)";
+                //})
+                
+			var heatMap = svg.selectAll(".value")
+				.data(data)
+				.enter()
+				.append("rect")
+				.attr("x", function(d){return (d.fNum - 1) * gridSize;})
+				.attr("y", function(d){return (d.sNum - 1) * gridSize;})
+				.attr("rx", 3)
+				.attr("ry", 3)
+				.attr("class", "value bordered")
+				.attr("width",  gridSize)
+				.attr("height", gridSize)
+				.style("fill",  "#ffffd9");
+			
+			
+			heatMap
+				.style("fill", function(d){return d.color;});
+    		
+    		heatMap.append("title").text(function(d){
+    			if(d.color == "#ffffff"){
+    			}else{
+    				return "p-value: " + d.value + "\n" + "feature: " + d.feature;
+    			}
+    		});
+    		
+    		
+    		var legend = svg.selectAll(".legend")
+              .data(data)
+              .enter();
+              
+             legend.append("text")
+            .attr("class", "mono")
+            .text(function(d) { 
+            	if(d.flagF == 1){
+            		return d.fNum + ": " + d.feature;
+            	}
+            })
+            .attr("x", function(d, i) { return 0; })
+            .attr("y", function(d, i){
+            	return d.sMax*gridSize + gridSize + i*12;
+            });
+            
+            
+            
+            
+           
+
+
+
+            
+            var bar = svg.selectAll(".bars")
+	      		.data(groupPara)
+		    	.enter().append("g")
+		    	.attr("class", "bar");
+		  	bar.append("rect")
+				.attr("width", function(d, i) { 
+					var str = d.split(":");
+					return str[1] * 10; 
+				})
+				.attr("height", function(d, i) { return 15; })
+				.attr("x", function(d, i) { return (maxLabel * 7 + 60); })
+				.attr("y", function(d, i){
+					return rowN * gridSize + gridSize + (i * 18) ;
+           		 })
+           		 .style("fill", function(d){
+					var str = d.split(":");
+					return str[2];
+				});
+			bar.append("text")
+				.attr("class", "label")
+				.attr("x", function(d) { return (maxLabel * 7 + 60); })
+				.attr("y", function(d, i){
+					return rowN * gridSize + gridSize + (i * 18) ;
+           		 })
+				.attr("dx", -5)
+				.attr("dy", 12)
+				.attr("text-anchor", "end")
+				.text(function(d,i) { 
+					var str = d.split(":");
+					return "group " + str[0] + ": " + str[1]; 
+				});
+    	});
+    </script>
+  </body>
+</html>
