@@ -11,7 +11,7 @@
 ## v0.5 Aug    2017
 ## v0.6 Sept   2017
 ## v0.7 Sept   2017
-## v1.0 Aug    2018
+## v1.0 Sept   2018
 ##
 
 use Getopt::Long;
