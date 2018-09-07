@@ -1,0 +1,856 @@
+1	dedD_b2314	membrane-anchored periplasmic protein involved in septation; putative lipoprotein
+	Probability = 1	-27.90	-14.77	-7.80	 -4.70
+	sRNA(Ec_sgrS)       131 augaccgcaAUUCUGAAAguugacuugccu 160
+	                         |.||||  ||||||||| ||. ||||||  
+	Target(dedD_b2314)   28 gauuggc--UAAGACUUUgaau-gaacggu   2
+	Probability = 1	-27.90	-14.77	-9.40	 -4.60
+	sRNA(Ec_sgrS)       131 augaccgcaauucugaaaguugACUUGCCu 160
+	                         |.||||  ||||||||| || |||||||  
+	Target(dedD_b2314)   28 gauuggc--uaagacuuugaa-UGAACGGu   2
+2	cynS_b0340	cyanate aminohydrolase; cyanate aminohydrolase, cyanase
+	Probability = 1	-22.40	-14.45	-14.60	-11.50
+	sRNA(Ec_sgrS)       168 gUGUGACUGAGUauuggugu 187
+	                         |||||||||.|  |||||  
+	Target(cynS_b0340)   15 aACACUGACUUAguaccacc  -5
+3	glnP_b0810	glutamine transporter subunit; glutamine high-affinity transport system; membrane component
+	Probability = 1	-28.10	-14.34	-10.10	 -6.17
+	sRNA(Ec_sgrS)       158 ccugcaucaugu-gugacugaguau--UGGUGUAAA--aucac 195
+	                         |||||| |||| ||  |||  ||.  |||||||||  ||||  
+	Target(glnP_b0810)    7 ugacgua-uacaacaaggaca-auggcACCACAUUUauuaguu -34
+4	elaD_b2269	protease, capable of cleaving an AMC-ubiquitin model substrate; putative sulfatase / phosphatase
+	Probability = 1	-17.30	-14.09	-12.60	-12.60
+	sRNA(Ec_sgrS)       166 augugUGACUGAGUa 180
+	                        |||| |||||||||  
+	Target(elaD_b2269)   61 uacagACUGACUCAa  47
+5	napA_b2206	nitrate reductase, periplasmic, large subunit; probable nitrate reductase 3
+	Probability = 1	-27.00	-13.81	-10.90	 -8.60
+	sRNA(Ec_sgrS)       171 uGACUGAGUau--ugguguaaaaucaccc 197
+	                         ||||||||    ||||||    |||||  
+	Target(napA_b2206)   14 gCUGACUCAaaguaccacaaaggagugga -15
+	Probability = 1	-42.19	 -6.60	-16.00	 -2.60
+	sRNA(Ec_sgrS)       171 ugacugaguau--ugguguaaaaucaccc-gccagcagauuauaCCUGCUGGUu 221
+	                         ||||||||    ||||||    |||||  ||            |||||||||  
+	Target(napA_b2206)   14 gcugacucaaaguaccacaaaggaguggaacgagaa--------GGACGACCAc -32
+6	yhcA_b3215	putative periplasmic chaperone protein; putative chaperone
+	Probability = 1	-16.10	-13.15	-9.60	 -7.30
+	sRNA(Ec_sgrS)       167 ugugugaCUGAGUAUUg 183
+	                         .|||| |||||.|||  
+	Target(yhcA_b3215)   15 uuacacaGACUCGUAAa  -2
+7	prpB_b0331	2-methylisocitrate lyase; putative phosphonomutase 2
+	Probability = 1	-33.90	-12.97	-22.20	 -3.60
+	sRNA(Ec_sgrS)         1 -GAUGAAGCAAGGGG-gugccccau  23
+	                         ||  |||||||||| ||||| ||  
+	Target(prpB_b0331)  -41 uCUGUUUCGUUCCCCacacgguguu -65
+8	atoD_b2221	acetyl-CoA:acetoacetyl-CoA transferase, alpha subunit; acetyl-CoA:acetoacetyl-CoA transferase alpha subunit
+	Probability = 1	-26.40	-11.96	-15.90	 -7.82
+	sRNA(Ec_sgrS)         5 aAGCAAGGGG-gugccc  20
+	                         ||||||||| |||||  
+	Target(atoD_b2221)  -45 aUCGUUCCCCucacggu -61
+	Probability = 1	-26.40	-11.96	-17.10	 -7.40
+	sRNA(Ec_sgrS)         5 aagcaa-GGGGGUGCCc  20
+	                         ||||| |||.|||||  
+	Target(atoD_b2221)  -45 aucguucCCCUCACGGu -61
+	Probability = 0.927	-26.40	-11.96	-8.80	 -3.02
+	sRNA(Ec_sgrS)         5 aagcaAGGGGG--ugccc  20
+	                         ||| |.||||  ||||  
+	Target(atoD_b2221)  -45 aucg-UUCCCCucacggu -61
+9	efeO_b1018	inactive ferrous ion transporter EfeUOB
+	Probability = 1	-14.70	-11.94	-13.80	-11.10
+	sRNA(Ec_sgrS)       166 aug-UGUGACUGAGUAu 181
+	                        ||| |||.|||.||.|  
+	Target(efeO_b1018)  -23 uacaACAUUGAUUCGUu -39
+10	ycjP_b1312	putative sugar ABC transporter permease; putative transport system permease protein
+	Probability = 1	-21.30	-11.83	-16.50	-11.40
+	sRNA(Ec_sgrS)       167 ugUGUGACUGAGUauuggugua 188
+	                         .||.||||||||    |.||  
+	Target(ycjP_b1312)   33 cuACGCUGACUCAca--cgcaa  14
+11	emrE_b0543	DLP12 prophage; multidrug resistance protein; methylviologen resistance
+	Probability = 1	-33.60	-11.01	-9.80	 -4.80
+	sRNA(Ec_sgrS)       149 gUUGACUUGCCug---caucau-gugugacugaguauuggugua 188
+	                         |..|||  ||||   |||||| ||||  |.    ||||.|||  
+	Target(emrE_b0543)  -50 gAGUUGAGUGGacaaaguaguaacacaaggg----uaacuacaa -89
+12	yadH_b0128	putative ABC transporter permease
+	Probability = 1	-22.40	-10.54	-21.60	-11.59
+	sRNA(Ec_sgrS)       159 cUGCAUCAUGUGUGA-cug 176
+	                         |||||||||.|.|| ||  
+	Target(yadH_b0128)    9 uACGUAGUACGCGCUagag -10
+13	mreB_b3251	cell wall structural complex MreBCD, actin-like component MreB; regulator of ftsI, penicillin binding protein 3, septation function
+	Probability = 1	-15.90	-10.23	-15.90	-12.10
+	sRNA(Ec_sgrS)       138 cAAUUCUGAAAGUUGa 153
+	                         |||.|||||||.||  
+	Target(mreB_b3251)  -10 aUUAGGACUUUCGACc -25
+14	ptsI_b2416	PEP-protein phosphotransferase of PTS system (enzyme I); PEP-protein phosphotransferase system enzyme I
+	Probability = 1	-30.20	-10.05	-12.60	 -8.70
+	sRNA(Ec_sgrS)       136 cgcaauucugaaagu-ugacuugccugcaucaugUGUGACUGAg 178
+	                         ||    ||||||   |.||   |||.|      |||||||||  
+	Target(ptsI_b2416)   13 acg----gacuuuaguauug---ggauggaaugaACACUGACUa -24
+15	yfgG_b2504	uncharacterized protein
+	Probability = 1	-23.10	 -9.98	-10.30	 -7.00
+	sRNA(Ec_sgrS)       167 ugUGUGACUGagu-auugguguaaaa-uca 194
+	                         .||.|||||    ||.|||||     ||  
+	Target(yfgG_b2504)   51 guACGCUGACaauuuagccacagcaaaagc  22
+	Probability = 0.884	-22.00	-11.85	-8.50	 -3.12
+	sRNA(Ec_sgrS)       167 ugugugacugagu-AUUGGUGUa 188
+	                         .||.|||||    ||.|||||  
+	Target(yfgG_b2504)   51 guacgcugacaauuUAGCCACAg  29
+16	tdk_b1238	thymidine kinase/deoxyuridine kinase; thymidine kinase
+	Probability = 1	-30.00	 -9.63	-19.90	 -2.50
+	sRNA(Ec_sgrS)      148 aguuGACUUGCCUGCAU-cau-gugugacugaguau 181
+	                        || |||||.||.|||| ||| |.| ||   ||||  
+	Target(tdk_b1238)   51 acauCUGAAUGGGCGUAaguaacgc-cuua-ucauc  18
+17	acuI_b3253	putative acryloyl-CoA reductase; putative dehydrogenase
+	Probability = 1	-30.70	 -9.45	-8.80	 -4.80
+	sRNA(Ec_sgrS)       134 acc-gcaaUUCUGAAAGUugacuugccugcaucaugugu 171
+	                         || ||  ||||.||||| .||  ||||||||   |||  
+	Target(acuI_b3253)   29 aggacgacAAGAUUUUCA-uug--cggacguauu-cacc  -6
+18	flgM_b1071	anti-sigma factor for FliA (sigma 28); anti-FliA (anti-sigma) factor; also known as RflB protein
+	Probability = 1	-18.50	 -9.32	-10.20	 -5.10
+	sRNA(Ec_sgrS)       162 cAUCAUGUGUgacugag-uauuggu 185
+	                         |||||||||  ||    |||.||. 
+	Target(flgM_b1071)  -27 aUAGUACACAacgaauaaauagccg -51
+19	yjfL_b4184	UPF0719 family inner membrane protein
+	Probability = 1	-53.30	 -9.02	-11.00	 -3.82
+	sRNA(Ec_sgrS)       73 uugcguugguUAAGCGUCCcacaacgauuaaccaugcu--ugaaggacugaug-cagugggaug 133
+	                        |||.|||  |||.|||||      .||||||||      |||||   ||||| |||.|||||. 
+	Target(yjfL_b4184)   6 uacguaac--AUUUGCAGGaaca--uuaauugguuauuauacuuc---acuacagucgcccuau -51
+20	dauA_b1206	C4-dicarboxylic acid transporter; putative sulfate transporter
+	Probability = 1	-26.40	 -8.81	-17.80	 -6.77
+	sRNA(Ec_sgrS)       160 uGCAUCAUGUGUGAcu-gaguauugguguaaaaucacc 196
+	                         ||||||..|||||   .|.||||  |||    ||||  
+	Target(dauA_b1206)   32 cCGUAGUGUACACUccuuuuauaaa-aca----agugu  -1
+21	yghT_b2986	putative ATP-binding protein
+	Probability = 1	-26.20	 -8.74	-18.20	 -5.80
+	sRNA(Ec_sgrS)       148 aguUGACUUGCCUGcaucaug 168
+	                         ||||||||||||| |.|||  
+	Target(yghT_b2986)   63 gcaACUGAACGGACuugguag  43
+22	yfdF_b2345	uncharacterized protein
+	Probability = 1	-20.10	 -8.40	-20.10	 -9.81
+	sRNA(Ec_sgrS)       60 gAAGUUGUGCUGGUu 74
+	                        |||.||.||||||  
+	Target(yfdF_b2345)  41 aUUCGACGCGACCAu 27
+23	yfjY_b2644	CP4-57 prophage; putative DNA repair protein; putative DNA repair protein
+	Probability = 1	-27.30	 -8.35	-13.60	 -6.67
+	sRNA(Ec_sgrS)       154 cuugcc-ugcaucaugugugacu-----gAGUAUUGGUGUa 188
+	                         ||.|| |||    ||||.|        .||||..|||||  
+	Target(yfjY_b2644)   65 aaauggcacgca--acacgccagucaccuUCAUGGCCACAg  27
+24	ydfV_b1565	Qin prophage; uncharacterized protein
+	Probability = 1	-29.52	 -8.27	-14.00	 -5.53
+	sRNA(Ec_sgrS)       140 auucugaaagu-----UGACUUGCCu---gcaucau---gugugac 174
+	                         ||||||         |||||||||.   ||||      |||.||  
+	Target(ydfV_b1565)   60 aaagacugaaggaagcACUGAACGGgauucguacaacaucacgcua  15
+	Probability = 0.889	-29.52	 -8.27	-6.00	 -2.60
+	sRNA(Ec_sgrS)       140 auucugaaagu-----ugacuugccu---gcaucau---GUGUGAc 174
+	                         ||||||         |||||||||.   ||||      |||.||  
+	Target(ydfV_b1565)   60 aaagacugaaggaagcacugaacgggauucguacaacauCACGCUa  15
+25	yneK_b1527	uncharacterized protein
+	Probability = 1	-22.50	 -8.02	-12.00	 -5.44
+	sRNA(Ec_sgrS)       165 cauguguga---cugag---UAUUGGUGUAAa 190
+	                         ||.|||.|   ||||    ||.|||.||||  
+	Target(yneK_b1527)   35 cuauacauuaacgacuacgaAUGACCGCAUUg   4
+26	crp_b3357	cAMP-activated global transcription factor, mediator of catabolite repression; cyclic AMP receptor protein
+	Probability = 1	-29.50	 -7.94	-17.40	 -5.94
+	sRNA(Ec_sgrS)      141 uucugaaaguugac--uugccu-GCAUCAUGUGUGa 173
+	                        ||||    |||    |||||  |||.||||.|.|  
+	Target(crp_b3357)   27 cagaca---aacgccaaacgguuCGUGGUACGCGCc  -6
+27	yddE_b1464	PhzC-PhzF family protein
+	Probability = 1	-22.90	 -7.94	-8.90	 -5.10
+	sRNA(Ec_sgrS)       168 gugugacu---gAGUAUUGGUGUaaaaucacccgcc 200
+	                         |||||     .||.||.|  ||     |||| ||  
+	Target(yddE_b1464)   42 aacacuccauuuUCGUAGCUGCAccau-guggacgc   8
+28	hycE_b2721	hydrogenase 3, large subunit; large subunit of hydrogenase 3 (part of FHL complex)
+	Probability = 1	-25.30	 -7.94	-17.60	 -2.07
+	sRNA(Ec_sgrS)       189 aaaucac-CCGCCAGCAg 205
+	                         |||||| |||||||||  
+	Target(hycE_b2721)  -15 auuagugcGGCGGUCGUu -32
+29	rluD_b2594	23S rRNA pseudouridine(1911,1915,1917) synthase
+	Probability = 1	-24.74	 -7.91	-11.90	 -5.10
+	sRNA(Ec_sgrS)       167 ugug-UGACUGAGUauugguguaaaaucaccc 197
+	                         |.| ||||.||||  ||||       ||||  
+	Target(rluD_b2594)   58 ucgcaACUGGCUCA--accaaaagccuguggc  29
+30	uspC_b1895	universal stress protein; putative regulator
+	Probability = 1	-23.50	 -7.52	-23.50	 -8.90
+	sRNA(Ec_sgrS)       48 uACCGCGACAGCGAa 62
+	                        |||||.|||||||  
+	Target(uspC_b1895)  36 uUGGCGUUGUCGCUg 22
+31	yoaA_b1808	putative ATP-dependent helicase, DinG family; putative enzyme
+	Probability = 1	-26.30	 -7.38	-14.90	 -4.30
+	sRNA(Ec_sgrS)       170 gugacugaguauUGGUGUAAAAUCacccgc 199
+	                         ||||.|    .|||||.||||||  |||  
+	Target(yoaA_b1808)   30 gacuggca---gACCACGUUUUAGcaggca   4
+32	mdtP_b4080	outer membrane factor of efflux pump; putative enzyme
+	Probability = 1	-21.90	 -7.20	-13.70	 -8.30
+	sRNA(Ec_sgrS)       144 UGAAAGUUGACuugccugcaucau-guguga 173
+	                         ||||||||||     || ||||| |.|||  
+	Target(mdtP_b4080)   21 ACUUUCAACUGcua--ac-uaguaacgcacc  -7
+33	yhjJ_b3527	putative periplasmic M16 family chaperone
+	Probability = 1	-33.60	 -7.07	-11.00	 -6.09
+	sRNA(Ec_sgrS)       132 ugaccgcaauuCUGAAAGUUGAcu-----ugccugcaucaugugu 171
+	                         .|||||    ||.|||||.||       ||||.    ||||||  
+	Target(yhjJ_b3527)   38 uuuggcgggc-GAUUUUCAGCUuaaaaacacgggac--guacacu  -4
+34	sanA_b2144	DUF218 superfamily vancomycin high temperature exclusion protein; vancomycin sensitivity; sanA mutant has a defective envelope more permeable to vancomycin at 42 degrees
+	Probability = 1	-21.00	 -7.02	-21.00	 -8.06
+	sRNA(Ec_sgrS)       209 aUACCUGCUGGUUUUu 224
+	                         ||||.|||||||||  
+	Target(sanA_b2144)  -41 aAUGGGCGACCAAAAc -56
+35	npr_b3206	phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr); phosphocarrier protein HPr-like NPr, nitrogen related, exchanges phosphate with Enzyme I, Hpr
+	Probability = 1	-38.10	 -6.59	-13.20	 -2.30
+	sRNA(Ec_sgrS)       44 aUUUUACCGCGacagcg-aaguug--ugcugguugcg  77
+	                        ||||||||||  |||| ||||    |||  |||||  
+	Target(npr_b3206)  -40 aAAAAUGGCGCgcucgccuucaucagacggucaacga -76
+36	fimD_b4317	fimbrial usher outer membrane porin protein; FimCD chaperone-usher; outer membrane protein; export and assembly of type 1 fimbriae, interrupted
+	Probability = 1	-28.26	 -6.50	-16.20	 -5.22
+	sRNA(Ec_sgrS)       167 ugugugacugagua---uuggugUAAAAUCACCCGc 199
+	                         .|.||||         ..||. ||||||||||||  
+	Target(fimD_b4317)   10 cuauacuguaauaaggaggccgaAUUUUAGUGGGCc -26
+37	gspH_b3329	putative general secretory pathway component, cryptic
+	Probability = 1	-21.70	 -6.26	-12.20	 -3.40
+	sRNA(Ec_sgrS)       134 accgcaauucugaaa----GUUGACUUGCc 159
+	                         ||||    ||||      |.||||||.|  
+	Target(gspH_b3329)   18 gggcgcaacgacuaaguagCGACUGAAUGa -12
+38	yqgA_b2966	DUF554 family putative inner membrane protein; putative transport protein
+	Probability = 1	-33.90	 -5.54	-15.90	 -5.42
+	sRNA(Ec_sgrS)       129 gGAUGACCGCAA----uucugaaaguugacuugccugca--ucaug-ugugacuga 177
+	                         |||||||.|||    |.|||  ||.||  |||  ||    ||    |.||||.|  
+	Target(yqgA_b2966)   10 gCUACUGGUGUUcucaaggacaaucgacauaacaaacuaaaagaauaauacuggca -46
+39	cmtB_b2934	putative mannitol-specific enzyme IIA component of PTS; PTS system, mannitol-specific enzyme II component, cryptic
+	Probability = 1	-36.57	 -5.39	-16.40	-12.80
+	sRNA(Ec_sgrS)       153 acuugcc-------ugcaucAUGUGUGACUGAGuauugguguaa---------aaucacc 196
+	                         |.||||       |||   ||||.|.|||||| ||||.||            ||||||  
+	Target(cmtB_b2934)   68 aggacgguuagaaaacgacuUACAUAUUGACUC-uaacuacuaagaccuuuuauuaguga  10
+40	fetA_b0490	iron export ABC transporter ATPase; peroxide resistance protein; putative ATP-binding component of a transport system
+	Probability = 1	-29.00	 -4.01	-23.10	 -8.16
+	sRNA(Ec_sgrS)       190 aAUCACCCGCCAGcagauuauaccugcu 217
+	                         ||||||||||||     ||| |||.|  
+	Target(fetA_b0490)   58 gUAGUGGGCGGUCu----aua-ggaugc  36
+41	ilvC_b3774	ketol-acid reductoisomerase, NAD(P)-binding; ketol-acid reductoisomerase
+	Probability = 1	-35.20	 -2.07	-23.20	 -7.03
+	sRNA(Ec_sgrS)       51 cgcgaca---gcgaAGUUGUGCUGGUUGCg 77
+	                        ||||||   ||  ||.|||||  |.|||  
+	Target(ilvC_b3774)  64 ucgcuguaaacgggUCGACACGGUCGACGa 35
+42	rlmJ_b3499	23S rRNA m(6)A2030 methyltransferase, SAM-dependent
+	Probability = 0.999	-22.00	-12.93	-12.70	 -9.60
+	sRNA(Ec_sgrS)       167 ugug-UGACUGAGUAUugguguaaaa 191
+	                         |.| |.||||||.|| || |||||  
+	Target(rlmJ_b3499)   16 ccgcuAUUGACUCGUA-cc-cauuuc  -8
+43	yeaI_b1785	putative membrane-anchored diguanylate cyclase
+	Probability = 0.999	-15.70	-12.42	-10.30	-10.30
+	sRNA(Ec_sgrS)       165 caugug-UGACUGAGUa 180
+	                         |.||| |||||||.|  
+	Target(yeaI_b1785)   19 augcacaACUGACUUAg   3
+44	ybhA_b0766	pyridoxal phosphate (PLP) phosphatase; putative phosphatase
+	Probability = 0.999	-30.80	 -8.28	-12.00	 -2.80
+	sRNA(Ec_sgrS)       141 uucugaaaguugacuugccugcAUCAUGUGUGacugaguauugguguaa 189
+	                         |||.  |||.||   ||    ||||.|.|||  || ||  |||.|||  
+	Target(ybhA_b0766)   33 cagau--ucagcucu-cgu---UAGUGCGCAC--ac-caguaccgcaua  -7
+45	malX_b1621	maltose and glucose-specific PTS enzyme IIB component and IIC component; PTS system, maltose and glucose-specific IIABC component
+	Probability = 0.999	-21.10	 -7.56	-10.30	 -6.70
+	sRNA(Ec_sgrS)       167 uGUGUGACUgaguauugguguaaaa-ucaccc 197
+	                         |.||||||     |.||||.     || ||  
+	Target(malX_b1621)   32 uCGCACUGAa----agccacgacaaaagcggc   5
+46	aaeB_b3240	p-hydroxybenzoic acid efflux system component
+	Probability = 0.999	-57.70	 -3.88	-13.00	 -5.13
+	sRNA(Ec_sgrS)       44 aUUUUACCGCGAcagcgaaguugugcugguu-gcguugguuaagcgucccacaacgauuaaccaugcuu 111
+	                        |||||||||.| ||||||  |.|| ||||| ||. |||  ||.   ||||    ||||||||| .||. 
+	Target(aaeB_b3240)  49 cAAAAUGGCGUU-ucgcuu--auacaaccaaucguuaccucuuuuauggguagcacuaauugguuugag -17
+47	ibaG_b3190	acid stress protein; putative BolA family transcriptional regulator; REP244 (repetitive extragenic palindromic) element; contains 1 REP sequences
+	Probability = 0.999	-38.00	 -2.51	-26.60	 -7.03
+	sRNA(Ec_sgrS)        32 uuuaucagcacuauuuuacc-gcgac---------AGCGAAGUUGUGCUGGu  73
+	                         |.|||||    ||   ||| ||||          |||.||||||.|||||. 
+	Target(ibaG_b3190)  -11 uaguagucaau-uauu-uggucgcuuuguagaaucUCGUUUCAACGCGACCg -60
+48	ygeW_b2870	putative carbamoyltransferase; putative carbamoyl transferase
+	Probability = 0.998	-17.90	 -8.82	-15.70	 -7.20
+	sRNA(Ec_sgrS)       125 AGUGGGAUGACc-gcaau 141
+	                        |||||.|||||  ||||  
+	Target(ygeW_b2870)  -12 UCACCUUACUGuccguuu -29
+49	pth_b1204	peptidyl-tRNA hydrolase
+	Probability = 0.998	-19.70	 -6.70	-17.40	 -4.03
+	sRNA(Ec_sgrS)       61 aaguugUGCUGGUUGCGu  78
+	                        |||| |.|||||||||  
+	Target(pth_b1204)  -36 aucaa-AUGACCAACGCc -52
+50	tfaQ_b1546	Qin prophage; putative tail fibre assembly protein; tail fiber assembly protein homolog from lambdoid prophage Qin
+	Probability = 0.998	-22.00	 -4.00	-22.00	 -4.96
+	sRNA(Ec_sgrS)       197 cGCCAGCAGAUUAUAc 212
+	                         ||||||||||||||  
+	Target(tfaQ_b1546)   57 cCGGUCGUCUAAUAUu  42
+51	tfaR_b1373	Rac prophage; putative tail fiber assembly protein; tail fiber assembly protein homolog from lambdoid prophage Rac
+	Probability = 0.998	-22.00	 -4.00	-22.00	 -4.96
+	sRNA(Ec_sgrS)       197 cGCCAGCAGAUUAUAc 212
+	                         ||||||||||||||  
+	Target(tfaR_b1373)   57 cCGGUCGUCUAAUAUu  42
+52	speF_b0693	ornithine decarboxylase isozyme, inducible
+	Probability = 0.998	-22.82	 -3.83	-13.50	 -5.70
+	sRNA(Ec_sgrS)       131 aUGACCGCAAUUcugaaaguugacuugccugcauca 166
+	                         |.|||||||||   ||  |||||       ||||  
+	Target(speF_b0693)   26 gAUUGGCGUUAAaaauuaaaacuguaaaaa-guaga  -9
+53	yhgA_b3411	transposase_31 family protein
+	Probability = 0.997	-15.90	 -6.22	-11.50	 -5.72
+	sRNA(Ec_sgrS)       169 ugugacugaguaUUGGUGUAAAAu 192
+	                         ||| |.|    ||||.||||||  
+	Target(yhgA_b3411)   69 gcacaggcc---AACCGCAUUUUu  49
+54	rhaD_b3902	rhamnulose-1-phosphate aldolase; rhamnulose-phosphate aldolase
+	Probability = 0.996	-23.10	-10.57	-7.40	 -3.67
+	sRNA(Ec_sgrS)       159 cugcauca--ugugugacug-aguaUUGGUGUa 188
+	                         |||||    |||||  ||| |.  |.|||||  
+	Target(rhaD_b3902)    6 aacguacaagacacaaggacauuuaAGCCACAa -27
+55	ptsG_b1101	fused glucose-specific PTS enzymes: IIB component/IIC component; PTS system, glucose-specific IIBC component
+	Probability = 0.996	-20.80	 -9.25	-8.70	 -6.90
+	sRNA(Ec_sgrS)       169 --ugugaCUGAGUAUuggugu 187
+	                          ||.  |||||||| ||||. 
+	Target(ptsG_b1101)   -8 ucacgagGACUCAUAcccacg -28
+56	yhhT_b3474	UPF0118 family putative transporter
+	Probability = 0.996	-50.71	 -5.37	-8.10	 -6.80
+	sRNA(Ec_sgrS)       160 ugcaucaugUGUGACUga--guauug-guguaaaa----ucacccgccagca-------gauuauaccugcugguuuu 223
+	                         || ||   |||||||    |||||. |||||       ||||  |||||||       ||||    ||||||.|||| 
+	Target(yhhT_b3474)   -4 ccgaagga-ACACUGAaaaacauaauucacaucgcccucagug--cggucguuauaagacuaagaaugacgacuaaaa -78
+57	fecD_b4288	ferric citrate ABC transporter permease; citrate-dependent iron transport, membrane-bound protein; membrane component of ABC superfamily
+	Probability = 0.995	-24.90	 -5.05	-18.90	 -9.00
+	sRNA(Ec_sgrS)         1 -GAUGAAGCAAGGGggugccc  20
+	                         ||  |||||||||  ||||  
+	Target(fecD_b4288)  -20 uCUGUUUCGUUCCCg-acggu -39
+58	yafY_b0251	lipoprotein, inner membrane; degP regulator; CP4-6 prophage; hypothetical transcriptional regulator
+	Probability = 0.995	-46.30	 -4.93	-18.70	 -2.93
+	sRNA(Ec_sgrS)       158 ccug-caucaugugugacugaguau-----ugguguaaaaucaccCGCCAGCAGAu 207
+	                         ||| ||||  .||.|| ||||        |||||   ||.||  ||||||||||  
+	Target(yafY_b0251)   72 agacaguagcguacgcu-acucuuugucucaccaccg-uugguc-GCGGUCGUCUc  20
+59	dapB_b0031	dihydrodipicolinate reductase
+	Probability = 0.993	-17.00	 -7.87	-15.00	 -6.60
+	sRNA(Ec_sgrS)       159 cUGCAUCAUGUGUgacug 176
+	                         |||||||||..|. ||. 
+	Target(dapB_b0031)   13 aACGUAGUACGUAucgau  -5
+60	sgcQ_b4303	putative nucleoside triphosphatase
+	Probability = 0.992	-35.50	 -4.46	-15.20	 -5.09
+	sRNA(Ec_sgrS)       125 agugg-GAUGACCGCaa-uucugaaagu-ugacuu------gccugcaucaug 168
+	                         .||| |||||||||   |||.|      |.||.|      ||| .| ||||  
+	Target(sgcQ_b4303)   51 guaccgCUACUGGCGaaaaaggcaggguuauuggagaaagucgguug-aguaa  -1
+61	kdsD_b3197	D-arabinose 5-phosphate isomerase; putative isomerase
+	Probability = 0.992	-41.70	 -4.45	-15.20	 -6.56
+	sRNA(Ec_sgrS)       175 uGAGUAUUGGUGuaaaaucacc-------cgccagca----gauuauaccugcugguuu 222
+	                         |||||||||.|   ||.||         |||||||     |||     |.||  |||  
+	Target(kdsD_b3197)  -22 gCUCAUAACCGCua-uuggucauguuguagcggucgguaugcuauuua-ggcggucaau -78
+62	yeaY_b1806	Slp family lipoprotein, RpoE-regulated; putative outer membrane protein
+	Probability = 0.991	-18.50	 -6.40	-14.90	 -7.08
+	sRNA(Ec_sgrS)       176 gAGUAUUGGUGUAAAaucaccc 197
+	                         ||.|||.|.|.|||   |||  
+	Target(yeaY_b1806)   60 gUCGUAAUCGCGUUUgcaugga  39
+63	yibN_b3611	putative rhodanese-related sulfurtransferase
+	Probability = 0.99	-18.70	-10.12	-14.40	 -8.70
+	sRNA(Ec_sgrS)       125 agUGGGAUGACcgca 139
+	                         .||||||||| ||  
+	Target(yibN_b3611)   39 auACCCUACUGccgg  25
+64	fsaA_b0825	fructose-6-phosphate aldolase 1; fructose-6-phosphate aldolase
+	Probability = 0.989	-22.50	 -5.63	-22.50	 -5.50
+	sRNA(Ec_sgrS)       45 uUUUACCGCGACAGCGa 61
+	                        ||.|||||.|||.||  
+	Target(fsaA_b0825)  42 gAAGUGGCGUUGUUGCa 26
+65	aslA_b3801	putative Ser-type periplasmic non-aryl sulfatase; arylsulfatase
+	Probability = 0.988	-18.19	 -6.60	-9.80	 -3.47
+	sRNA(Ec_sgrS)       169 ugugacUGAGUAUUGGUguaaaaucacccg 198
+	                         ||.| |.||.||||.|.        |||  
+	Target(aslA_b3801)  -37 gcauuaAUUCGUAACUAuuaacucuaggga -66
+66	yfcC_b2298	putative inner membrane transporter; C4-dicarboxylate anaerobic carrier family protein; putative S-transferase
+	Probability = 0.987	-29.50	 -6.50	-14.00	 -5.54
+	sRNA(Ec_sgrS)       125 AGUGGGAUGaccgcaauucugaaaguugacuugccugca 163
+	                        |||||||||  ||||||||     .||||  |||  ||  
+	Target(yfcC_b2298)  -45 UCACCCUACc-gcguuaag-----uaacu--acgu-cgc -74
+67	argB_b3959	acetylglutamate kinase
+	Probability = 0.985	-21.40	 -5.67	-15.90	 -4.67
+	sRNA(Ec_sgrS)       168 gugugacuGAGUAUUGGUGUAaaaucaccc 197
+	                         .| .|| ||.||||||.|.|     |||  
+	Target(argB_b3959)  -36 ggcuuug-CUUAUAACCGCGUgaca-uggc -63
+68	ymfI_b1143	e14 prophage; uncharacterized protein
+	Probability = 0.984	-26.00	 -7.62	-8.10	 -7.82
+	sRNA(Ec_sgrS)       146 aaaguugacuugccugcaucaUGUGUGAc 174
+	                         |||||  ||||| |||    |||||||  
+	Target(ymfI_b1143)   -1 auucaaaggaacgaacgaccgACACACUc -29
+69	thiC_b3994	phosphomethylpyrimidine synthase
+	Probability = 0.984	-19.00	 -5.46	-19.00	 -8.78
+	sRNA(Ec_sgrS)         1 -GAUGAAGCAAGGGg  14
+	                         |||||||||||.|  
+	Target(thiC_b3994)  -42 cCUACUUCGUUCUCu -56
+70	thrC_b0004	L-threonine synthase
+	Probability = 0.984	-22.40	 -3.07	-17.30	 -7.73
+	sRNA(Ec_sgrS)       145 gAAAGUUGACUUGCcugcaucauguguga-cug 176
+	                         ||||.||||.|||     ||   ||||| ||  
+	Target(thrC_b0004)   46 gUUUCGACUGGACG-----agca-acacuagaa  20
+71	tgt_b0406	tRNA-guanine transglycosylase
+	Probability = 0.983	-22.70	 -4.65	-13.50	 -8.36
+	sRNA(Ec_sgrS)      166 aUGUGUGACUGaguauugguguaaaa-ucac 195
+	                        ||.|.|||.|     ||||||     |||  
+	Target(tgt_b0406)   37 cACGCGCUGGCagcc-accacaggucaaguu   8
+72	yecR_b1904	lipoprotein, function unknown
+	Probability = 0.98	-20.30	 -3.54	-15.90	 -3.79
+	sRNA(Ec_sgrS)        37 cAGCACUAUUUUACcgcga  55
+	                         ||||||||||||| |||  
+	Target(yecR_b1904)  -24 uUCGUGAUAAAAUG-cgca -41
+73	frmR_b0357	regulator protein that represses frmRAB operon; repressor of frmRAB
+	Probability = 0.977	-18.30	 -6.64	-11.30	 -3.97
+	sRNA(Ec_sgrS)       175 uGAGUAUUGGuguaaaau-caccc 197
+	                         |||||.||| |.|     ||||  
+	Target(frmR_b0357)   14 cCUCAUGACC-cguaaagcgugga  -9
+74	yafX_b0248	CP4-6 prophage; uncharacterized protein
+	Probability = 0.975	-25.10	 -4.30	-12.70	 -4.67
+	sRNA(Ec_sgrS)       51 cgcgacagcgaaGUUGUGCUG-guu 74
+	                        |||   |||| ||.|||||| ||. 
+	Target(yafX_b0248)  36 ucgcccacgcucCAGCACGACgcag 12
+75	fimE_b4313	tyrosine recombinase/inversion of on/off regulator of fimA; recombinase involved in phase variation; regulator for fimA
+	Probability = 0.975	-32.90	 -1.42	-21.10	 -9.22
+	sRNA(Ec_sgrS)       156 uGCCUGCAUCAUGugu---gacugag-uauuggug 186
+	                         |||||||||||| |.   .|||    ||..|||. 
+	Target(fimE_b4313)   54 gCGGACGUAGUAC-cggacuugaagaaauggccau  21
+76	nadK_b2615	NAD kinase
+	Probability = 0.974	-21.40	 -6.33	-16.80	 -7.10
+	sRNA(Ec_sgrS)        6 agcaagGGGGUGCCc 20
+	                        |||  ||||||||  
+	Target(nadK_b2615)  57 acgucaCCCCACGGc 43
+77	dnaG_b3066	DNA primase; DNA biosynthesis; DNA primase
+	Probability = 0.971	-20.80	 -4.34	-20.80	 -4.30
+	sRNA(Ec_sgrS)       197 cGCCAGCAGAUUAUa 211
+	                         ||||||||||.||  
+	Target(dnaG_b3066)   45 aCGGUCGUCUAGUAa  31
+78	allE_b0515	S-ureidoglycine aminohydrolase
+	Probability = 0.97	-22.50	 -6.85	-9.80	 -5.89
+	sRNA(Ec_sgrS)         1 -GAUGAAGCAagggggugccc  20
+	                         |||.|||||   |.|||||  
+	Target(allE_b0515)  -30 aCUAUUUCGUa--cucacggu -48
+79	intF_b0281	CP4-6 prophage; putative phage integrase; putative phage integrase
+	Probability = 0.969	-20.00	-12.79	-8.50	 -7.79
+	sRNA(Ec_sgrS)       167 ugUGUGACUGaguauugguguaaa 190
+	                         .|||.||||    .||||||||  
+	Target(intF_b0281)   40 uuACAUUGAC----gaccacauuc  21
+	Probability = 0.969	-20.00	-12.79	-9.20	 -5.47
+	sRNA(Ec_sgrS)       167 ugugugacugaguauUGGUGUAAa 190
+	                         .|||.||||    .||||||||  
+	Target(intF_b0281)   40 uuacauugac----gACCACAUUc  21
+80	yfcZ_b2343	UPF0381 family protein
+	Probability = 0.967	-22.20	 -4.86	-20.50	 -5.10
+	sRNA(Ec_sgrS)       29 aGUUUUAUCAGCACUAuuuua 49
+	                        ||||.||||||||||.     
+	Target(yfcZ_b2343)  27 cCAAAGUAGUCGUGAUguaaa  7
+81	katE_b1732	catalase HPII, heme d-containing; catalase; hydroperoxidase HPII(III)
+	Probability = 0.965	-19.60	-11.91	-9.00	 -8.20
+	sRNA(Ec_sgrS)       167 ugu-GUGACUGaguauuggugua 188
+	                         || ||||||| || .||.|||  
+	Target(katE_b1732)   47 ucacCACUGAC-cacgacuacac  26
+82	ycdX_b1034	alkaline phosphatase
+	Probability = 0.964	-23.70	-11.63	-9.80	 -2.26
+	sRNA(Ec_sgrS)       164 uCAUGUGUGacugaguauuggugua 188
+	                         |||||||| ||| |.| .|||.|  
+	Target(ycdX_b1034)   47 cGUACACAC-gac-cguugccauac  25
+83	idnK_b4268	D-gluconate kinase, thermosensitive
+	Probability = 0.964	-19.50	 -6.45	-19.50	 -7.13
+	sRNA(Ec_sgrS)       191 aUCACCCGCCAg 202
+	                         ||||||||||  
+	Target(idnK_b4268)   12 aAGUGGGCGGUa   1
+84	yfjM_b2629	CP4-57 prophage; uncharacterized protein
+	Probability = 0.961	-20.40	 -8.52	-20.40	-10.90
+	sRNA(Ec_sgrS)        11 gGGGGUGCCCCa  22
+	                         ||.|||||||  
+	Target(yfjM_b2629)  -42 aCCUCACGGGGg -53
+85	ygaM_b2672	putative membrane-anchored DUF883 family ribosome-binding protein
+	Probability = 0.961	-31.70	 -1.32	-14.80	 -2.82
+	sRNA(Ec_sgrS)       62 aguugu-gcugguugcGUUGGUUAAGCGU-----cccacaa  96
+	                        ||.|| || ||||  ||.||||||.|.|     ||| ||  
+	Target(ygaM_b2672)  28 gcagcaacg-ccaagcCAGCCAAUUUGUAuacuagggggua -12
+86	waaP_b3630	kinase that phosphorylates core heptose of lipopolysaccharide; lipopolysaccharide core biosynthesis; phosphorylation of core heptose; attaches phosphate-containing substrate to LPS co
+	Probability = 0.959	-20.60	-14.60	-8.70	 -7.45
+	sRNA(Ec_sgrS)       173 aCUGAGUAUugguguaaa 190
+	                         ||||||||.||..|||  
+	Target(waaP_b3630)  -52 gGACUCAUAgccguauua -69
+87	yhjH_b3525	cyclic-di-GMP phosphodiesterase, FlhDC-regulated
+	Probability = 0.956	-28.10	 -4.76	-13.00	 -5.70
+	sRNA(Ec_sgrS)       139 aauucugaaaguUGACUUGCCUg--caucau--gugugacugagua 180
+	                         ||||       |.||.|||||   |||||   .|||  ||| ||  
+	Target(yhjH_b3525)   27 auaagcgaccu-AUUGGACGGAauaguaguuucuacag-gacacaa -17
+88	rpsE_b3303	30S ribosomal subunit protein S5
+	Probability = 0.955	-20.70	 -4.63	-14.20	 -4.60
+	sRNA(Ec_sgrS)       45 uUUUACCGCGA-cagcg 60
+	                        |||||||||| ||||  
+	Target(rpsE_b3303)  57 cAAAUGGCGCUagucga 41
+89	yihP_b3877	putative 2,3-dihydroxypropane-1-sulphonate exporter, membrane protein; putative permease
+	Probability = 0.952	-21.70	 -9.09	-8.10	 -5.89
+	sRNA(Ec_sgrS)       167 ugUGUGACUgaguauugguguaaaaucacccg 198
+	                         .|||||||   .||.|.|||    || |||  
+	Target(yihP_b3877)   12 cuACACUGA---guagcuaca----agaggga -13
+90	xylE_b4031	D-xylose transporter; xylose-proton symport
+	Probability = 0.951	-31.80	 -3.88	-8.60	 -2.93
+	sRNA(Ec_sgrS)       151 ugacuugccugc-aucauguguga-cugagUAUUGGUGUAa 189
+	                         |||.|||||   |.|||   ||| ||   |||  |||.|  
+	Target(xylE_b4031)   -3 ucuggacggaaucugguaag-acuagaaa-AUAGUCACGUa -41
+91	azoR_b1412	NADH-azoreductase, FMN-dependent; acyl carrier protein phosphodiesterase
+	Probability = 0.944	-23.40	 -4.17	-14.20	 -5.60
+	sRNA(Ec_sgrS)         1 -gaugaagcaa-ggg-GGUGCCCCa  22
+	                         ||||       ||| |.||||||  
+	Target(azoR_b1412)  -14 ucuacaaacuuacccgCUACGGGGc -38
+92	lamB_b4036	maltose outer membrane porin (maltoporin); phage lambda receptor protein; maltose high-affinity receptor
+	Probability = 0.943	-36.50	 -6.48	-6.50	 -3.80
+	sRNA(Ec_sgrS)       140 auucugaaa-guugacuugccu------gcaucaugUGUGACugaguauug-gugua 188
+	                         |.||||   .||| |||  ||      .|||||. ||||||   |. ||| ||||  
+	Target(lamB_b4036)   -6 gaggacucaguaac-gaaaagaaaaaaguguaguggACACUGuc-cgaaacacacaa -60
+93	agaS_b3136	tagatose-6-phosphate ketose/aldose isomerase; putative tagatose-6-phosphate aldose/ketose isomerase
+	Probability = 0.937	-21.10	 -5.18	-21.10	 -5.10
+	sRNA(Ec_sgrS)       64 uUGUGCUGGUUGCGu 78
+	                        |||.|.|||||||  
+	Target(agaS_b3136)  43 uACAUGGCCAACGCc 29
+94	ybfF_b0686	acyl-CoA esterase
+	Probability = 0.918	-17.60	 -7.02	-16.30	 -6.00
+	sRNA(Ec_sgrS)       62 agUUGUGCUGGUUg 75
+	                        .|||||||||||  
+	Target(ybfF_b0686)  46 auAACACGACCAAa 33
+95	osmE_b1739	osmotically-inducible lipoprotein; activator of ntrL gene
+	Probability = 0.917	-27.80	 -1.68	-22.60	 -9.40
+	sRNA(Ec_sgrS)       193 cACCCGCCAGCAgauu--auaccu 214
+	                         |||||||||||      |||||  
+	Target(osmE_b1739)   61 uUGGGCGGUCGUaccaauuauggc  38
+96	yfiL_b2602	lipoprotein
+	Probability = 0.915	-20.70	 -6.48	-20.70	-11.66
+	sRNA(Ec_sgrS)        5 aAGCAAGGGGGUGc 18
+	                        |.||||||||.|  
+	Target(yfiL_b2602)  30 gUUGUUCCCCCGCu 17
+97	yadK_b0136	putative fimbrial-like adhesin protein; putative fimbrial protein
+	Probability = 0.914	-19.50	 -5.47	-14.00	 -4.40
+	sRNA(Ec_sgrS)       125 AGUGGGAUGa----------ccgcaauucugaaaguu 151
+	                        |||||||||           ||     |||| ||||. 
+	Target(yadK_b0136)   12 UCACCCUACguauauaucaaggacuu-agacauucag -24
+98	yedL_b1932	GNAT family putative N-acetyltransferase
+	Probability = 0.911	-12.80	 -8.83	-12.80	 -8.27
+	sRNA(Ec_sgrS)       177 aGUAUUGGUGUa 188
+	                         ||||||||||  
+	Target(yedL_b1932)   -9 gCAUAACCACAa -20
+99	sucC_b0728	succinyl-CoA synthetase, beta subunit
+	Probability = 0.905	-25.20	 -6.12	-9.10	 -2.10
+	sRNA(Ec_sgrS)       144 ugaaaguugacuugccugca------------UCAUGUGUg 172
+	                         .|||||||  |||||||              ||||||||  
+	Target(sucC_b0728)   36 uuuuucaacaaaacggacuauaaguacauucaAGUACACAa  -5
+100	glyQ_b3560	glycine tRNA synthetase, alpha subunit
+	Probability = 0.9	-19.00	 -5.21	-19.00	 -7.40
+	sRNA(Ec_sgrS)       207 uUAUACCUGCUGGu 220
+	                         ||||||.|||||  
+	Target(glyQ_b3560)  -44 cAUAUGGGCGACCu -57
+101	hda_b2496	ATPase regulatory factor involved in DnaA inactivation; putative DNA replication factor
+	Probability = 0.899	-18.90	 -6.96	-18.90	 -7.60
+	sRNA(Ec_sgrS)      61 aAGUUGUGCUGGUu 74
+	                       ||.|||||.|||  
+	Target(hda_b2496)  21 cUCGACACGGCCAc  8
+102	wcaM_b2043	colanic acid biosynthesis protein; putative colanic acid biosynthesis protein
+	Probability = 0.892	-19.60	 -7.30	-17.70	 -5.90
+	sRNA(Ec_sgrS)       209 auACCUGCUGGUuu 222
+	                         .|||||||||||  
+	Target(wcaM_b2043)  -49 agUGGACGACCAau -62
+103	paaJ_b1397	3-oxoadipyl-CoA/3-oxo-5,6-dehydrosuberyl-CoA thiolase
+	Probability = 0.888	-21.40	 -7.57	-14.20	 -4.90
+	sRNA(Ec_sgrS)        45 uUUUACCGCGA--cagcga  61
+	                         ||||||||||  |||||  
+	Target(paaJ_b1397)  -38 uAAAUGGCGCUuugucgcg -56
+104	yghQ_b2983	putative inner membrane polysaccharide flippase
+	Probability = 0.882	-49.20	 -2.56	-19.20	 -3.40
+	sRNA(Ec_sgrS)       148 aguugacuugccugca---ucaugugugacugagua-uuggu-guaaaauca--CCCGCCAGCa 204
+	                         |||.|   .||.||    ||| |. ||||.  .|  |||.| ||||||     |||||||||  
+	Target(yghQ_b2983)   16 acaauuu--ugggcgguuaagu-cggacuggaauagcaacuaucauuuuucauaGGGCGGUCGg -45
+105	ycfP_b1108	putative UPF0227 family esterase; REP102 (repetitive extragenic palindromic) element; contains 2 REP sequences
+	Probability = 0.88	-26.22	 -5.63	-10.40	 -5.00
+	sRNA(Ec_sgrS)       147 aaguUGACUUGC---------cugcaucau---gugugacugag 178
+	                         || ||||.|||         ||||        .|||.|||||  
+	Target(ycfP_b1108)  -24 auc-ACUGGACGaaagagaaggacggucgcaaguacauugacua -66
+106	yggX_b2962	oxidative damage protective factor for iron-sulfur proteins
+	Probability = 0.873	-13.70	 -8.02	-12.40	 -8.50
+	sRNA(Ec_sgrS)       166 aUGUGUGACUGa-guau 181
+	                         ||.||.||||  |||  
+	Target(yggX_b2962)  -44 cACGCAUUGACgacauu -60
+107	yehW_b2128	putative ABC transporter permease; putative transport system permease protein
+	Probability = 0.866	-23.60	 -3.03	-21.20	 -8.57
+	sRNA(Ec_sgrS)       195 cCCGCCAGCAGAUuauaccug 215
+	                         ||.|||||||||    |||| 
+	Target(yehW_b2128)  -12 aGGUGGUCGUCUA----ggac -28
+108	secY_b3300	preprotein translocase membrane subunit; putative ATPase subunit of translocase
+	Probability = 0.861	-20.10	 -5.33	-20.10	 -5.46
+	sRNA(Ec_sgrS)       195 cCCGCCAGCAGa 206
+	                         ||||||||||  
+	Target(secY_b3300)  -23 uGGCGGUCGUCg -34
+	Probability = 0.755	-18.80	 -5.62	-11.80	 -4.35
+	sRNA(Ec_sgrS)        43 uAUUUUACCGCga-cagcg  60
+	                         ||||||||||   ||||  
+	Target(secY_b3300)  -17 cUAAAAUGGCGgucgucga -35
+109	dgkA_b4042	diacylglycerol kinase
+	Probability = 0.859	-20.10	 -6.91	-10.60	 -4.74
+	sRNA(Ec_sgrS)       159 cugcaucaugugugacugAGUAUUGGUGUAa 189
+	                         |.||| ||| |.|    |.|||  |||||  
+	Target(dgkA_b4042)  -14 aauguaauacucgcag--UUAUAGUCACAUg -42
+110	ybjS_b0868	putative NAD(P)H-dependent oxidoreductase
+	Probability = 0.844	-41.30	  0.55	-14.30	 -2.19
+	sRNA(Ec_sgrS)       43 uAUUUUACCGCGacagcgaaguu-gu-gcugguugcguuggu 82
+	                        |.|.|||||||    |||     |. |||||| |||..||| 
+	Target(ybjS_b0868)  56 uUGAGAUGGCGCaaa-gcuggauucggcgaccaccgcggcca 16
+111	yagI_b0272	CP4-6 prophage; putative DNA-binding transcriptional regulator; putative regulator
+	Probability = 0.842	-30.00	 -9.43	-7.90	 -3.47
+	sRNA(Ec_sgrS)       158 ccugcau--caugugu----gacugagu-AUUGGUGUAAa 190
+	                         |||||   ||.||      ||||||.| ||.||..|||  
+	Target(yagI_b0272)   37 agacguugcgugcaaguugucugacuuauUAGCCGUAUUa  -3
+112	ybiY_b0824	putative pyruvate formate lyase activating enzyme
+	Probability = 0.829	-18.50	 -9.89	-9.90	 -5.50
+	sRNA(Ec_sgrS)       167 ugu-gugaCUGAGUAUUGguguaaaaucac 195
+	                         || |.| ||||.|||||.    ||||||  
+	Target(ybiY_b0824)   25 ucaucgc-GACUUAUAACu----uuuagua   1
+113	dtpA_b1634	dipeptide and tripeptide permease A; putative transport protein
+	Probability = 0.828	-16.80	 -8.94	-16.80	-11.77
+	sRNA(Ec_sgrS)        10 aGGGGGUGCc  19
+	                         ||||||||  
+	Target(dtpA_b1634)  -31 gCCCCCACGa -40
+114	udk_b2066	uridine/cytidine kinase
+	Probability = 0.826	-19.40	 -4.75	-15.50	 -5.70
+	sRNA(Ec_sgrS)        1 -gauga-agcAAGGGGGUGc  18
+	                        ||||  || |||||||.|  
+	Target(udk_b2066)  -24 ccuacaauccUUCCCCCGCu -43
+115	yhjB_b3520	putative DNA-binding transcriptional response regulator; putative regulator
+	Probability = 0.815	-13.80	-10.81	-13.80	-11.90
+	sRNA(Ec_sgrS)       166 aUGUGUGACUGAGUa 180
+	                         ||..|.|||||.|  
+	Target(yhjB_b3520)    6 aACGUAUUGACUUAg  -9
+116	fliG_b1939	flagellar motor switching and energizing component; flagellar biosynthesis, component of motor switching and energizing, enabling rotation and determining its direction
+	Probability = 0.812	-17.30	 -6.08	-8.10	 -3.26
+	sRNA(Ec_sgrS)       169 ugugacugag-UAUUGGUGuaaaaucac 195
+	                         .||||     |||.||||.    |||  
+	Target(fliG_b1939)   36 cuacugcgaaaAUAGCCACggac-aguc  10
+117	gfcB_b0986	O-antigen capsule production lipoprotein; putative regulator
+	Probability = 0.8	-22.00	 -7.96	-15.90	 -7.50
+	sRNA(Ec_sgrS)        1 -gaugaagcAAGGGGGUGCc 19
+	                        |||.||. |||.|||.||  
+	Target(gfcB_b0986)  21 gcuauuuuaUUCUCCCGCGu  2
+118	mcbR_b1450	colanic acid and biofilm gene transcriptional regulator, MqsR-controlled
+	Probability = 0.798	-37.30	  0.73	-17.70	 -3.19
+	sRNA(Ec_sgrS)       135 ccgcaa---uucugaaaguugaCUUGCCUGCAUcaugugugacugagua---uugguguaa 189
+	                         |||     |||||        |.|||||||||   |.. ||  ||.|    .|||||||  
+	Target(mcbR_b1450)  -11 agcgcacaaaagacagguug--GGACGGACGUAc--cgu-cuuccuuaaguggaccacaua -66
+119	yccE_b1001	uncharacterized protein
+	Probability = 0.779	-21.10	 -5.38	-10.20	 -4.70
+	sRNA(Ec_sgrS)       167 uGUGUGACUGAguauugguguaaaaucacccg 198
+	                         |||  |||.|      ||.||  |. ||||  
+	Target(yccE_b1001)   33 uCACGUUGAUUaagguacauauaaugaugggu   2
+120	ycjY_b1327	S9 homolog non-peptidase family protein
+	Probability = 0.778	-23.30	 -2.98	-10.70	 -3.26
+	sRNA(Ec_sgrS)       147 AAGUUGACUUgccug--caucaug-ugugacu----gagua 180
+	                        |||.||||||       ||||||  .||  ||    ||||  
+	Target(ycjY_b1327)   23 UUCGACUGAAauaauaaguaguaaggcaaggaguaccucaa -18
+121	ycjR_b1314	putative TIM alpha/beta barrel enzyme
+	Probability = 0.773	-21.10	 -9.16	-6.20	 -5.90
+	sRNA(Ec_sgrS)       156 ugccugcaucaUGUGUGacugag 178
+	                         ||||| ||  |||||| |.||  
+	Target(ycjR_b1314)   27 gcggac-uaagACACAC-ggcua   7
+122	yfiR_b2603	putative periplasmic inhibitor of YfiN activity
+	Probability = 0.751	-15.60	-10.08	-8.40	 -4.67
+	sRNA(Ec_sgrS)       175 ugagUAUUGGUGu 187
+	                         |||||||||||. 
+	Target(yfiR_b2603)   64 gcucAUAACCACg  52
+123	ybgK_b0712	putative allophanate hydrolase, subunit 2; putative carboxylase
+	Probability = 0.75	-39.80	 -2.20	-14.80	 -3.10
+	sRNA(Ec_sgrS)       129 gGAUGACCGCaauucugaa-aguug---acuugccugcau 164
+	                         ||.|||||| ||.|||   |||     || ||||.|||. 
+	Target(ybgK_b0712)   56 aCUGCUGGCGguaggacgugucaccauauguacgggcgug  17
+124	metN_b0199	DL-methionine transporter subunit; D- and L-methionine transport protein (ABC superfamily, atp_bind)
+	Probability = 0.738	-21.10	 -2.10	-16.80	 -5.10
+	sRNA(Ec_sgrS)        1 -gaugaagcaaggGGGUGCCCc 21
+	                        ||||  ||    ||||||||  
+	Target(metN_b0199)  55 ccuaccacg----CCCACGGGa 38
+125	efeB_b1019	deferrrochelatase, periplasmic; REP95 (repetitive extragenic palindromic) element; contains 2 REP sequences
+	Probability = 0.738	-29.80	  1.91	-23.80	 -3.93
+	sRNA(Ec_sgrS)        49 acc-gcg-acaGCGAAGUUGUGCUGGu  73
+	                         || ||. || |||||||||.||..|  
+	Target(efeB_b1019)  -16 gggucguguggCGCUUCAACGCGGUCu -42
+126	hipA_b1507	inactivating GltX kinase facilitating persister formation; toxin of HipAB TA pair; autokinase; persistence to inhibition of murein or DNA biosynthesis, DNA-binding regulator
+	Probability = 0.735	-19.20	 -4.32	-19.20	 -3.96
+	sRNA(Ec_sgrS)       209 aUACCUGCUGGUUu 222
+	                         ||||.|||||||  
+	Target(hipA_b1507)   40 gAUGGGCGACCAAc  27
+127	fabB_b2323	3-oxoacyl-[acyl-carrier-protein] synthase I
+	Probability = 0.735	-26.00	 -2.79	-13.60	 -5.50
+	sRNA(Ec_sgrS)       197 cgccagcagauuauacCUGCUGGUUu 222
+	                         |||||  ||.|   ||||||||||  
+	Target(fabB_b2323)   72 acgguc--cugaa--gGACGACCAAu  51
+128	prlF_b3129	antitoxin of the SohA(PrlF)-YhaV toxin-antitoxin system; putative protease; htrA suppressor protein
+	Probability = 0.725	-21.30	 -9.21	-12.90	 -7.17
+	sRNA(Ec_sgrS)       167 ugugugac--uGAGUAUUGGUGu 187
+	                         |.||||   .|||.|||.|.|  
+	Target(prlF_b3129)   27 ucgcacucucgCUCGUAAUCGCc   5
+129	kduD_b2842	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase; KDG oxidoreductase; 20-ketosteroid reductase
+	Probability = 0.721	-19.30	 -4.37	-19.30	 -5.70
+	sRNA(Ec_sgrS)       129 gGAUGACCGCAAUUc 143
+	                         ||.||||||||.|  
+	Target(kduD_b2842)   46 aCUGCUGGCGUUGAa  32
+130	murB_b3972	UDP-N-acetylenolpyruvoylglucosamine reductase, FAD-binding; UDP-N-acetylenolpyruvoylglucosamine reductase
+	Probability = 0.713	-16.50	 -9.59	-9.60	 -6.01
+	sRNA(Ec_sgrS)       167 ugugugaCUGAGUAUUg 183
+	                         .|||| |||||.|||. 
+	Target(murB_b3972)   60 uuacac-GACUCGUAAu  45
+131	ygbI_b2735	DeoR family putative transcriptional regulator; putative DEOR-type transcriptional regulator
+	Probability = 0.695	-39.00	 -1.67	-12.80	 -5.12
+	sRNA(Ec_sgrS)       134 a-------cc-gca---auucugaaaguugacUUGCCUGCaucaugugugacugaguauugguguaaa 190
+	                                || ||    |||||.   |.|.  ||||||||   |.|||.|         .||.|.||  
+	Target(ygbI_b2735)  -12 aggaaacaggacgacuguaagaug--cgaua-AACGGACGcuuugcacgc---------gccgcguug -67
+132	rsgA_b4161	ribosome small subunit-dependent GTPase A
+	Probability = 0.668	-15.90	 -7.00	-15.90	 -7.48
+	sRNA(Ec_sgrS)       212 cCUGCUGGUUUUUu 225
+	                         |||||||..|||  
+	Target(rsgA_b4161)   34 cGACGACCGGAAAc  21
+133	pdxH_b1638	pyridoxine 5'-phosphate oxidase; pyridoxinephosphate oxidase
+	Probability = 0.668	-12.20	 -6.01	-9.10	 -5.37
+	sRNA(Ec_sgrS)       180 aUUGGUGUAaaaucacc 196
+	                         ||||||||   ||||  
+	Target(pdxH_b1638)   57 aAACCACAUa--agugc  43
+134	gadX_b3516	acid resistance regulon transcriptional activator; autoactivator
+	Probability = 0.665	-36.40	 -2.80	-9.80	 -4.67
+	sRNA(Ec_sgrS)       147 aAGUUGACUUgcc--ugcau---caugugugacugaguauugguguaaaaucac-ccgc 199
+	                         |||||||||.    |.|||   |||.|   ||||  ||||..||||    ||| |||| 
+	Target(gadX_b3516)    1 aUCAACUGAAuuauaauguauuuguauaa--ugacaaauaauuacauc---gugcggcg -53
+135	yedD_b1928	lipoprotein
+	Probability = 0.663	-21.80	 -3.60	-20.90	 -3.47
+	sRNA(Ec_sgrS)       192 uca-CCCGCCAGCAg 205
+	                         || ||||||||||  
+	Target(yedD_b1928)   48 ugucGGGCGGUCGUu  34
+136	bdcR_b4251	transcriptional repressor for divergent bdcA
+	Probability = 0.658	-17.30	 -7.46	-17.30	 -7.62
+	sRNA(Ec_sgrS)       126 gUGGGAUGACCg 137
+	                         |||||.||||  
+	Target(bdcR_b4251)   41 gACCCUGCUGGa  30
+137	cra_b0080	transcriptional repressor-activator for carbon metabolism; transcriptional repressor of fru operon and others
+	Probability = 0.658	-19.20	 -5.65	-19.20	 -5.50
+	sRNA(Ec_sgrS)      194 aCCCGCCAGCa 204
+	                        |||||||||  
+	Target(cra_b0080)   33 aGGGCGGUCGg  23
+138	sfmA_b0530	FimA homolog, function unknown; putative fimbrial-like protein
+	Probability = 0.651	-26.40	 -6.45	-10.10	 -8.60
+	sRNA(Ec_sgrS)       148 aguugacuugccugcauca-UGUGUGACUGAguauug 183
+	                         .|.||||   |..||||  |.|.|.||.|| ||.|  
+	Target(sfmA_b0530)  -22 auagcuga---gguguaggcAUAUAUUGGCUaaugaa -55
+139	fliT_b1926	putative flagellar synthesis and assembly chaperone; flagellar biosynthesis; repressor of class 3a and 3b operons (RflA activity)
+	Probability = 0.649	-13.90	 -6.48	-13.90	 -7.50
+	sRNA(Ec_sgrS)       214 uGCUGGUUUUUUUu 227
+	                         |||||.||||||. 
+	Target(fliT_b1926)   59 uCGACCGAAAAAAg  46
+140	lldD_b3605	L-lactate dehydrogenase, FMN-linked; L-lactate dehydrogenase
+	Probability = 0.637	-30.20	 -2.57	-17.80	 -3.10
+	sRNA(Ec_sgrS)       66 guGCUGGUUGCGu---ugguuaagcg------uccca  93
+	                        .|||||.||||    |..|.| |||      ||||  
+	Target(lldD_b3605)  23 agCGACCGACGCcuuuauuaguacgcaaaaagaggga -14
+141	nrdI_b2674	NrdEF cluster assembly flavodoxin
+	Probability = 0.629	-21.90	 -3.81	-21.90	 -5.77
+	sRNA(Ec_sgrS)       64 uUGUGCUGGUUGCGUu  79
+	                        ||  ||||..||||  
+	Target(nrdI_b2674)   2 uACGUGACCGGCGCAc -14
+142	rseP_b0176	inner membrane zinc RIP metalloprotease; RpoE activator, by degrading RseA; cleaved signal peptide endoprotease
+	Probability = 0.628	-23.39	 -4.22	-12.40	 -5.06
+	sRNA(Ec_sgrS)       154 cuugccugcaucau--gugugaCUGAGUAUUGGUg 186
+	                         ||.|||         |.||  ||||.||.  ||. 
+	Target(rseP_b0176)   -1 uaauggaaggcaauuucgcag-GACUUAUGGUCAu -34
+143	ypdF_b2385	Xaa-Pro aminopeptidase; putative peptidase
+	Probability = 0.618	-19.10	 -5.82	-11.30	 -2.40
+	sRNA(Ec_sgrS)       50 ccgcgaCAGCGAAGu 64
+	                        |||| ||||||||. 
+	Target(ypdF_b2385)  26 agcgc-GUCGCUUCg 13
+144	ddlA_b0381	D-alanine-D-alanine ligase A
+	Probability = 0.607	-15.80	 -6.75	-15.80	 -7.40
+	sRNA(Ec_sgrS)        46 uUUACCGCGACAg  58
+	                         |||||.|||||  
+	Target(ddlA_b0381)  -37 uAAUGGUGCUGUu -49
+145	hchA_b1967	glyoxalase III and Hsp31 molecular chaperone
+	Probability = 0.604	-14.80	 -8.58	-14.80	 -9.16
+	sRNA(Ec_sgrS)       168 gUGUGACUGAGu 179
+	                         ||.|||||||. 
+	Target(hchA_b1967)  -43 aACGCUGACUCg -54
+146	rsxE_b1632	SoxR iron-sulfur cluster reduction factor component; electron transport inner membrane NADH-quinone reductase; electron transport complex protein
+	Probability = 0.601	-21.10	 -2.92	-19.80	 -7.96
+	sRNA(Ec_sgrS)        59 cgAAGUUGUGCUGGUu  74
+	                         .|||||||||.|||  
+	Target(rsxE_b1632)  -29 cuUUCAACACGGCCAu -44
+147	yhcD_b3216	putative outer membrane fimbrial subunit usher protein; putative outer membrane protein
+	Probability = 0.599	-49.20	  2.06	-13.30	 -4.90
+	sRNA(Ec_sgrS)       16 ugccccaugcguca--guuuua--ucagc-ac-uauu--UUACCGCGAcagcgaaguugugcugguugcguu  79
+	                        || ||| ||.     .|||||  ||||  || ||||  ||||||||| |.|   .|.| |||||.|| ||  
+	Target(yhcD_b3216)  -7 gcgagguccguuucaauaaaauucagucacuguauaaauAAUGGCGCUauugguauagc-cgaccgacccau -77
+148	mdtF_b3514	anaerobic multidrug efflux transporter, ArcA-regulated; putative transport system permease protein
+	Probability = 0.596	-35.80	 -5.42	-6.50	 -2.77
+	sRNA(Ec_sgrS)       143 cugaaaguugacuu--gccugcaucaugug--ugac-uga----guauUGGUGUa 188
+	                         |||||||.  |||  |||||||  |.||   ||   .||    || .|||.||  
+	Target(mdtF_b3514)    2 uacuuucaggggaauucggacgu--ugcaauaacaaagcuaagccacgACCGCAa -51
+149	yceA_b1055	putative rhodanese-related sulfurtransferase; REP99 (repetitive extragenic palindromic) element; contains 1 REP sequences
+	Probability = 0.595	-20.70	-10.69	-8.60	 -7.60
+	sRNA(Ec_sgrS)       166 aUGUGUGAC--ugaguauugguguaa 189
+	                         |||||.||  || |.|| ||||||  
+	Target(yceA_b1055)   17 aACACAUUGugac-cgua-ccacaug  -7
+	Probability = 0.539	-21.70	 -8.20	-8.20	 -2.17
+	sRNA(Ec_sgrS)       166 augugug--acugaguauUGGUGUAaaa-uca 194
+	                         |||||.  |||| |.| |||||||    ||  
+	Target(yceA_b1055)   17 aacacauugugac-cgu-ACCACAUgccaagg -13
+150	feoC_b3410	putative DNA-binding transcriptional regulator
+	Probability = 0.576	-23.20	 -2.72	-22.10	 -3.90
+	sRNA(Ec_sgrS)        62 aguuGUGCUGGUUGCGu  78
+	                         || |||||||.||||. 
+	Target(feoC_b3410)  -15 ccacCACGACCGACGCg -31
+151	fucP_b2801	L-fucose transporter; fucose permease
+	Probability = 0.575	-14.10	 -6.34	-10.20	 -5.89
+	sRNA(Ec_sgrS)       166 augugugacugaGUAUUGGUGUa 188
+	                         ||.||      ||||||.|||  
+	Target(fucP_b2801)   27 gacgcaaa----CAUAACUACAc   9
+152	yggE_b2922	oxidative stress defense protein; putative actin
+	Probability = 0.572	-16.80	 -4.86	-16.80	 -5.99
+	sRNA(Ec_sgrS)       147 aAGUUGACUUGCCu 160
+	                         |.||||||||||. 
+	Target(yggE_b2922)  -17 aUUAACUGAACGGg -30
+153	ychH_b1205	DUF2583 family putative inner membrane protein
+	Probability = 0.551	-20.90	 -5.57	-20.90	 -7.90
+	sRNA(Ec_sgrS)         9 aAGGGGGUGCCCCa  22
+	                         ||||..|.||||  
+	Target(ychH_b1205)  -31 gUCCCUUAUGGGGa -44
+154	ldtD_b0925	murein L,D-transpeptidase; putative amidase
+	Probability = 0.55	-16.50	 -7.06	-13.90	 -6.39
+	sRNA(Ec_sgrS)       151 uGACUUGCCUgc 162
+	                         ||||||||||  
+	Target(ldtD_b0925)  -51 gCUGAACGGAca -62
+155	araE_b2841	arabinose transporter; low-affinity L-arabinose transport system proton symport protein
+	Probability = 0.547	-28.00	  0.29	-16.30	 -2.45
+	sRNA(Ec_sgrS)       177 aguauugguguaaaauca------cccGCCAGCAGAu 207
+	                         ||||||.|.   ||.||      || |||||||||  
+	Target(araE_b2841)   18 gcauaacuauca-uugguaaaaaaggaCGGUCGUCUc -18
+156	ldtB_b0819	L,D-transpeptidase linking Lpp to murein
+	Probability = 0.542	-21.50	 -4.78	-16.20	 -2.40
+	sRNA(Ec_sgrS)       49 accg-CGACAGCGAAGu 64
+	                        ||| |.|||||||||  
+	Target(ldtB_b0819)  51 cggcuGUUGUCGCUUCc 35
+157	yjcE_b4065	putative cation/proton antiporter
+	Probability = 0.539	-17.60	 -7.59	-12.40	 -4.05
+	sRNA(Ec_sgrS)       49 accgcGACAGCGAa 62
+	                        ||| ||||||||  
+	Target(yjcE_b4065)  54 gggc-CUGUCGCUc 42
+158	hycC_b2723	hydrogenase 3, membrane subunit; membrane-spanning protein of hydrogenase 3 (part of FHL complex)
+	Probability = 0.535	-12.40	 -9.63	-12.40	 -9.06
+	sRNA(Ec_sgrS)         2 aUGAAGCAAGGg  13
+	                         ||||.|||||  
+	Target(hycC_b2723)  -24 gACUUUGUUCCa -35
+159	ybhP_b0790	endo/exonuclease/phosphatase family protein
+	Probability = 0.532	-16.90	 -3.25	-12.40	 -6.60
+	sRNA(Ec_sgrS)       174 cUGAGUAUUGGUGuaaaaucaccc 197
+	                         |||.|||||.||      ||||  
+	Target(ybhP_b0790)   54 cACUUAUAACUACcacuc-gugga  32
+160	folD_b0529	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase; 5,10-methylene-tetrahydrofolate dehydrogenase; 5,10-methylene-tetrahydrofolate cyclohydrolase
+	Probability = 0.523	-21.30	 -3.67	-16.70	 -8.60
+	sRNA(Ec_sgrS)         1 gaugaagc---AAGGGGGUGCccca  22
+	                         |.| ||    ||||||.||| ||  
+	Target(folD_b0529)  -22 augcaucuagcUUCCCCUACGcgga -46
+161	frwB_b3950	putative enzyme IIB component of PTS; PTS system fructose-like IIB component 1
+	Probability = 0.522	-16.00	 -5.01	-17.10	 -3.20
+	sRNA(Ec_sgrS)       107 UGCUUGAAGGACu 119
+	                         .|.||||||||  
+	Target(frwB_b3950)   40 GUGGACUUCCUGu  28
+162	ydcA_b1419	putative periplasmic protein
+	Probability = 0.51	-15.80	 -5.14	-13.70	 -4.27
+	sRNA(Ec_sgrS)       173 acugaGUAUUGGUGUAAAA 191
+	                         |.| |.||.||..||||  
+	Target(ydcA_b1419)   63 gggc-CGUAGCCGUAUUUU  46
+163	yfaD_b2244	transposase_31 family protein
+	Probability = 0.505	-19.60	 -5.24	-17.60	 -4.08
+	sRNA(Ec_sgrS)       158 cCUGCAUCAUGUGugacugagu 179
+	                         |.||||||||.|     |||  
+	Target(yfaD_b2244)   38 uGGCGUAGUACGCcccuccucc  17
+164	yjjX_b4394	non-canonical purine NTP phosphatase, ITPase/XTPase
+	Probability = 0.503	-32.20	 -7.92	-7.10	 -3.37
+	sRNA(Ec_sgrS)       148 aguugacuugccugcaucaugugugacugagu---------AUUGGUGu 187
+	                         || ||  ||||||||  ||| |.  ||||.|         |||||||  
+	Target(yjjX_b4394)   67 gca-cuuuacggacgucuuac-cg--gacuuaaaaucgcccUAACCACc  23

@@ -1,0 +1,29 @@
+Locus	Gene	TargetRNA2	Star	IntaRNA	Count_ALL	TargetRNA2_-20_20	Star_-20_20	IntaRNA_-20_20	Count_-20_20	TargetRNA2_M	Star_M	IntaRNA_M	Rank
+b0060	polB	1		1	2	1		1	2	F		F	4
+b2966	yqgA		1	1	2		1	1	2		F	F	4
+b2721	hycE	1	1		2	1	1		2	F	F		4
+b3520	yhjB		1	1	2		1	1	2		F	F	4
+b4036	lamB		1	1	2		1	1	2		F	F	4
+b1808	yoaA		1	1	2		1	1	2		F	F	4
+b0128	yadH		1	1	2		1	1	2		F	F	4
+b0272	yagI		1	1	2		1	1	2		F	F	4
+b3499	rlmJ		1	1	2		1	1	2		F	F	4
+b2206	napA		1	1	2		1	1	2		F	F	4
+b4268	idnK	1	1		2	1	1		2	F	F		4
+b1055	yceA		1	1	2		1	1	2		F	F	4
+b1312	ycjP	1	1	1	3	1	1	1	3	F	F	F	4
+b4184	yjfL		1	1	2		1	1	2		F	F	4
+b0031	dapB		1	1	2		1	1	2		F	F	4
+b1101	ptsG	1	1	1	3	1	1	1	3	F	F	F	4
+b2314	dedD		1	1	2		1	1	2		F	F	4
+b3215	yhcA		1	1	2		1	1	2		F	F	4
+b1238	tdk		1	1	2		1	1	2		F	F	4
+b2983	yghQ		1	1	2		1	1	2		F	F	4
+b3253	acuI		1	1	2		1	1	2		F	F	4
+b2416	ptsI		1	1	2		1	1	2		F	F	4
+b3902	rhaD		1	1	2		1	1	2		F	F	4
+b0340	cynS		1	1	2		1	1	2		F	F	4
+b1785	yeaI		1	1	2		1	1	2		F	F	4
+b0810	glnP		1	1	2		1	1	2		F	F	4
+b0824	ybiY		1	1	2		1	1	2		F	F	4
+b2128	yehW	1	1		2	1	1		2	F	F		4

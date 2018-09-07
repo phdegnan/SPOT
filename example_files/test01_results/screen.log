@@ -1,0 +1,126 @@
+
+=========Prepping RefSeq Files====================
+[Mon Aug 27 18:59:07 UTC 2018]
+
+NC_000913	[SAMN02604091]
+NC_000913	[PRJNA57779]
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 38.4M    0 14480    0     0  78904      0  0:08:31 --:--:--  0:08:31 78695 75 38.4M   75 28.8M    0     0  24.7M      0  0:00:01  0:00:01 --:--:-- 24.7M100 38.4M  100 38.4M    0     0  26.0M      0  0:00:01  0:00:01 --:--:-- 25.9M
+[SAMN02604091][GCF_000005845.2	PRJNA57779	SAMN02604091		reference genome	511145	562	Escherichia coli str. K-12 substr. MG1655	strain=K-12 substr. MG1655		latest	Complete Genome	Major	Full	2013/09/26	ASM584v2	Univ. Wisconsin	GCA_000005845.2	identical	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2		assembly designated as neotype]
+
+=========Starting Searches========================
+[Mon Aug 27 18:59:11 UTC 2018]
+
+/software/starpicker/sTarPicker_global2.pl  -srna sgrS.fasta -gen NC_000913.fna -ptt NC_000913.ptt -th 0.5 -u 60 -d 60 -seed 6 &
+
+java -jar TargetRNA2.jar -a 60 -b 60 -l 7 -y -g /home/ubuntu/example_files/test01_results/NC_000913 -s /home/ubuntu/example_files/test01_results/sgrS.fasta -d Bacteria -o /home/ubuntu/example_files/test01_results/TargetRNA2_stringent.txt -p 0.05
+
+/software/IntaRNA1.0.4/IntaRNA_wrapper.pl -bindseq sgrS.fasta -ncbiacc NC_000913 -ntupstream 60 -ntdownstream 60 -region 5utr -bpinseed 6 -genbank Y &
+
+overriding windowize and maximum bp distance window(-w)=120, maxbp(-L)=120
+RUNNING[10978][Mon Aug 27 18:59:15 UTC 2018]
+COMPLETED[10978][Mon Aug 27 19:00:21 UTC 2018]
+Outside termClusterReport.pl
+ncbi_acc[NC_000913]
+/software/IntaRNA1.0.4/termClusterReport.pl intarna_websrv_table_ncbi.csv
+length gene list: 50
+length background: 4318
+
+User authentication: true
+[ENTREZ_GENE_ID]
+
+1.0 of list was mapped
+
+1.0 of list was mapped
+
+Valid categories: 
+BBID,BIOCARTA,GOTERM_BP_FAT,COG_ONTOLOGY,INTERPRO,KEGG_PATHWAY,OMIM_DISEASE,PIR_SUPERFAMILY,SMART,UP_SEQ_FEATURE
+
+Total TermClusterRecords: 10
+
+termClusterReport.txt generated
+Loading required package: seqinr
+null device 
+          1 
+[1] 3
+[1] 3
+[1] 2
+[1] 2
+Negative repeat count does nothing at /software/starpicker/sTarPicker_global2.pl line 925.
+RUNNING[10979][Mon Aug 27 19:00:21 UTC 2018]
+COMPLETED[10979][Tue Aug 28 00:52:43 UTC 2018]
+RUNNING[11014][Tue Aug 28 00:52:43 UTC 2018]
+COMPLETED[11014][Tue Aug 28 00:52:43 UTC 2018]
+
+=========Jobs Complete============================
+
+=========Reading/Saving Raw Results===============
+[Tue Aug 28 00:52:43 UTC 2018]
+
+=========Collating Results========================
+[Tue Aug 28 00:52:43 UTC 2018]
+
+=========Final summary Plots======================
+[Tue Aug 28 00:52:43 UTC 2018]
+/home/ubuntu/example_files/test01_results/COLLATED_RESULTS_stringent
+
+/usr/bin/R --slave -f /software/IntaRNA1.0.4/plotting_script_intaRNA2.r 
+
+Loading required package: seqinr
+null device 
+          1 
+
+/software/CopraRNA/1.2.9/rerun_enrichment_copra.pl stringent_composite_websrv_tbl.csv 
+
+
+Running /software/CopraRNA/1.2.9/rerun_enrichment_copra.pl on stringent_composite_websrv_tbl.csv
+length gene list: 28
+length background: 251
+
+User authentication: true
+
+1.0 of list was mapped
+
+1.0 of list was mapped
+
+Valid categories: 
+BBID,BIOCARTA,GOTERM_BP_FAT,COG_ONTOLOGY,INTERPRO,KEGG_PATHWAY,OMIM_DISEASE,PIR_SUPERFAMILY,SMART,UP_SEQ_FEATURE
+
+Total TermClusterRecords: 3
+
+termClusterReport.txt generated
+cp /software/CopraRNA/1.2.9/copra_heatmap.html .
+/usr/bin/R --slave -f /software/CopraRNA/1.2.9/extract_functional_enriched.r
+/software/CopraRNA/1.2.9/make_heatmap_json.pl enrichment.txt
+/usr/local/bin/phantomjs /software/CopraRNA/1.2.9/rasterize.js ./index-thumb.html enriched_heatmap_big.png
+
+/scripts/make_sRNA_heatmap.pl stringent stringent_summary.txt 
+
+Make heatmap pdf(s) of summary.txt file for up to the 1st 96 entries
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+
+/scripts/make_sRNA_xlsx.pl stringent stringent_complete.txt stringent_summary.txt 
+
+ Subject: run_sRNA_detection.pl job stringent complete
+ To: patrickd@ucr.edu
+  Content-type: text/plain
+
+ 
+Dear User,
+
+run_sRNA_detection.pl job stringent has completed. Login to retrieve your results.
+
+
+Thanks,
+Admin
+
+
+=========Complete=================================
+[Tue Aug 28 00:53:35 UTC 2018]

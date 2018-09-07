@@ -1,0 +1,551 @@
+
+****************************************
+PROGRAM PARAMETERS
+
+TargetRNA version:			2.01
+Replicon:				
+NTs before start codon:			60
+NTs after start codon:			60
+Seed length:				7
+sRNA conservation and accessibility:	true
+sRNA window size:			13
+mRNA structural accessibility:		true
+Interaction region:			20
+Filter size:				400
+Single target:				-
+File of candidate targets:		-
+p-value:				0.05
+****************************************
+
+
+Rank	Gene	Synonym	Energy	Pvalue	sRNA_start	sRNA_stop	mRNA_start	mRNA_stop
+1	thiC	b3994	-19.92	0.000	    1		    15		    -57		    -42
+2	ybfF	b0686	-16.74	0.000	    62		    75		    33		    46
+3	rne	b1084	-16.07	0.000	    66		    86		    12		    32
+4	ypdB	b2381	-15.27	0.001	    69		    85		    -60		    -43
+5	mhpT	b0353	-14.68	0.001	    1		    19		    10		    27
+6	panB	b0134	-14.22	0.001	    59		    77		    -36		    -18
+7	ycaL	b0909	-14.08	0.002	    196		    206		    18		    28
+8	xylF	b3566	-13.89	0.002	    70		    88		    44		    60
+9	dnaG	b3066	-13.88	0.002	    197		    211		    31		    45
+10	ykfB	b0250	-13	0.004	    192		    205		    28		    41
+11	clpS	b0881	-12.92	0.004	    19		    38		    -15		    6
+12	mutH	b2831	-12.57	0.005	    116		    135		    11		    28
+13	pth	b1204	-12.41	0.006	    63		    78		    -52		    -37
+14	ftsB	b2748	-11.59	0.010	    18		    29		    -39		    -28
+15	fimF	b4318	-11.51	0.010	    191		    204		    41		    53
+16	ydfZ	b1541	-11.02	0.014	    66		    85		    18		    38
+17	rsxE	b1632	-10.99	0.014	    59		    74		    -44		    -29
+18	hycE	b2721	-10.86	0.015	    190		    206		    -33		    -17
+19	mepM	b1856	-10.85	0.015	    65		    82		    -56		    -39
+20	ybgO	b0716	-10.8	0.015	    194		    211		    -1		    18
+21	mutS	b2733	-10.78	0.016	    154		    173		    31		    49
+22	yfjM	b2629	-10.75	0.016	    11		    22		    -53		    -42
+23	yghU	b2989	-10.68	0.016	    195		    209		    46		    60
+24	yibN	b3611	-10.67	0.017	    123		    139		    25		    43
+25	ygaP	b2668	-10.53	0.018	    154		    174		    19		    38
+26	ptsG	b1101	-10.51	0.018	    167		    187		    -29		    -9
+27	fetA	b0490	-10.49	0.018	    190		    203		    45		    58
+28	atoC	b2220	-10.41	0.019	    65		    81		    -55		    -39
+29	yjjB	b4363	-10.35	0.020	    18		    38		    -31		    -11
+30	torD	b0998	-10	0.023	    62		    77		    8		    23
+31	hyaF	b0977	-9.93	0.024	    65		    83		    30		    50
+32	lpp	b1677	-9.93	0.024	    193		    207		    47		    60
+33	polB	b0060	-9.86	0.025	    151		    169		    -2		    17
+34	glnB	b2553	-9.82	0.026	    103		    117		    28		    41
+35	ada	b2213	-9.75	0.026	    75		    90		    14		    29
+36	phnP	b4092	-9.72	0.027	    16		    26		    51		    60
+37	yfdQ	b2360	-9.67	0.027	    66		    84		    10		    28
+38	glyQ	b3560	-9.54	0.029	    63		    79		    -22		    -6
+39	ycjP	b1312	-9.53	0.029	    167		    180		    20		    33
+40	nfsB	b0578	-9.37	0.031	    197		    212		    -44		    -29
+41	lacA	b0342	-9.34	0.032	    153		    166		    28		    40
+42	fimE	b4313	-9.33	0.032	    152		    172		    39		    57
+43	modA	b0763	-9.14	0.035	    49		    64		    44		    59
+44	yehW	b2128	-9.14	0.035	    195		    209		    -26		    -12
+45	idnK	b4268	-8.61	0.044	    191		    202		    1		    12
+46	mdtO	b4081	-8.39	0.048	    196		    206		    39		    49
+47	nadB	b2574	-8.38	0.048	    156		    173		    -54		    -35
+48	yhiN	b3492	-8.32	0.049	    193		    205		    35		    46
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+thiC                                                                           1
+	Ec_sgrS	15	3' GGGGGAACGAAGUA-G 5'	1
+	       		    :|:|||||||||| |   
+	thiC   	-57	5' GUCUCUUGCUUCAUCC 3'	-42
+
+Energy:			-19.92
+p-value:		0.000
+ gene product:	phosphomethylpyrimidine synthase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ybfF                                                                           2
+	Ec_sgrS	75	3' GUUGGUCGUGUUGA 5'	62
+	       		    |||||||||||:    
+	ybfF   	33	5' AAACCAGCACAAUA 3'	46
+
+Energy:			-16.74
+p-value:		0.000
+ gene product:	acyl-CoA esterase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+rne                                                                            3
+	Ec_sgrS	86	3' GAAUUGGUUGCGUUG-GUCGUG 5'	66
+	       		    ||||:||||||||| |||||    
+	rne    	12	5' GUUAAUCAACGCAACUCAGCA- 3'	32
+
+Energy:			-16.07
+p-value:		0.000
+ gene product:	endoribonuclease; RNA-binding protein;RNA degradosome binding protein; RNase E, membrane attachment, mRNA turnover, maturation 5S RNA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ypdB                                                                           4
+	Ec_sgrS	85	3' AUUGGUUGCGU-UGGUC- 5'	69
+	       		   |||||||||||  ||||    
+	ypdB   	-60	5' UAACCAACGCACCCCAGU 3'	-43
+
+Energy:			-15.27
+p-value:		0.001
+ gene product:	response regulator activating yhjX; pyruvate-responsive YpdAB two-component system; putative 2-component transcriptional regulator
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mhpT                                                                           5
+	Ec_sgrS	19	3' CCGUGGGGGAACGAAGUAG- 5'	1
+	       		    |:| |||||| | |||||    
+	mhpT   	10	5' CGUA-CCCCUU-CAUCAUCU 3'	27
+
+Energy:			-14.68
+p-value:		0.001
+ gene product:	3-hydroxyphenylpropionic transporter; putative transport protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+panB                                                                           6
+	Ec_sgrS	77	3' GCGUUGGUCGUGUUGAAGC 5'	59
+	       		   | ||: ||||||||| ||    
+	panB   	-36	5' C-CAGACAGCACAACAUCA 3'	-18
+
+Energy:			-14.22
+p-value:		0.001
+ gene product:	3-methyl-2-oxobutanoate hydroxymethyltransferase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ycaL                                                                           7
+	Ec_sgrS	206	3' AGACGACCGCC 5'	196
+	       		    |||||||||    
+	ycaL   	18	5' ACUGCUGGCGA 3'	28
+
+Energy:			-14.08
+p-value:		0.002
+ gene product:	putative peptidase-related chaperone; putative heat shock protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+xylF                                                                           8
+	Ec_sgrS	88	3' GCGAAUUGGUUGCGUUGGU 5'	70
+	       		   :|||| |||||||: :|:    
+	xylF   	44	5' UGCUU-ACCAACGUUGCU- 3'	60
+
+Energy:			-13.89
+p-value:		0.002
+ gene product:	D-xylose transporter subunit; xylose binding protein transport system; periplasmic-binding component of ABC superfamily
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+dnaG                                                                           9
+	Ec_sgrS	211	3' AUAUUAGACGACCGC 5'	197
+	       		    ||:||||||||||    
+	dnaG   	31	5' AAUGAUCUGCUGGCA 3'	45
+
+Energy:			-13.88
+p-value:		0.002
+ gene product:	DNA primase; DNA biosynthesis; DNA primase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ykfB                                                                          10
+	Ec_sgrS	205	3' GACGACCGCCCACU 5'	192
+	       		    ||||||||||||    
+	ykfB   	28	5' AUGCUGGCGGGUGU 3'	41
+
+Energy:			-13
+p-value:		0.004
+ gene product:	CP4-6 prophage; uncharacterized protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clpS                                                                          11
+	Ec_sgrS	38	3' ACUAUU-UUGACUGCGUACCC- 5'	19
+	       		    |||:| |||||||  |||||    
+	clpS   	-15	5' AGAUGAUAACUGAC-AAUGGGU 3'	6
+
+Energy:			-12.92
+p-value:		0.004
+ gene product:	regulatory protein for ClpA substrate specificity
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mutH                                                                          12
+	Ec_sgrS	135	3' CAGUAGGGUGACGUAGUCAG 5'	116
+	       		    ||: |||||||| ||  ||   
+	mutH   	11	5' CUCG-CCCACUGC-UCUCUC 3'	28
+
+Energy:			-12.57
+p-value:		0.005
+ gene product:	methyl-directed mismatch repair protein; methyl-directed mismatch repair
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+pth                                                                           13
+	Ec_sgrS	78	3' UGCGUUGGUCGUGUUG- 5'	63
+	       		    |||||||||:| |||    
+	pth    	-52	5' CCGCAACCAGUA-AACU 3'	-37
+
+Energy:			-12.41
+p-value:		0.006
+ gene product:	peptidyl-tRNA hydrolase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ftsB                                                                          14
+	Ec_sgrS	29	3' ACUGCGUACCCC 5'	18
+	       		    ||:|||||||    
+	ftsB   	-39	5' GGAUGCAUGGGA 3'	-28
+
+Energy:			-11.59
+p-value:		0.010
+ gene product:	cell division protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+fimF                                                                          15
+	Ec_sgrS	204	3' ACGACCGCCCACUA 5'	191
+	       		    |||||| |||||    
+	fimF   	41	5' GGCUGGC-GGUGAG 3'	53
+
+Energy:			-11.51
+p-value:		0.010
+ gene product:	minor component of type 1 fimbriae; fimbrial morphology
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ydfZ                                                                          16
+	Ec_sgrS	85	3' AUUGG--UUGCGUUGGUCGUG 5'	66
+	       		   |||||  |||||||:|| |||   
+	ydfZ   	18	5' UAACCGUAACGCAAUCACCAC 3'	38
+
+Energy:			-11.02
+p-value:		0.014
+ gene product:	selenoprotein, function unknown
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+rsxE                                                                          17
+	Ec_sgrS	74	3' UUGGUCGUGUUGAAGC 5'	59
+	       		    |||:|||||||||:    
+	rsxE   	-44	5' UACCGGCACAACUUUC 3'	-29
+
+Energy:			-10.99
+p-value:		0.014
+ gene product:	SoxR iron-sulfur cluster reduction factor component; electron transport inner membrane NADH-quinone reductase; electron transport complex protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hycE                                                                          18
+	Ec_sgrS	206	3' AGACGACCGCC-CACUAA 5'	190
+	       		    :||||||||| |||| |   
+	hycE   	-33	5' CUUGCUGGCGGCGUGA-U 3'	-17
+
+Energy:			-10.86
+p-value:		0.015
+ gene product:	hydrogenase 3, large subunit; large subunit of hydrogenase 3 (part of FHL complex)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mepM                                                                          19
+	Ec_sgrS	82	3' UGGUUGCGUUGGUCGUGU 5'	65
+	       		   |::|:| |||||||:|::   
+	mepM   	-56	5' AUUAGC-CAACCAGUAUG 3'	-39
+
+Energy:			-10.85
+p-value:		0.015
+ gene product:	murein DD-endopeptidase, space-maker hydrolase, septation protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ybgO                                                                          20
+	Ec_sgrS	211	3' AUAUUAGACGACCG--CCCA 5'	194
+	       		    ||:|  |||||||  |||    
+	ybgO   	-1	5' AAUGA-GUGCUGGCAAGGGA 3'	18
+
+Energy:			-10.8
+p-value:		0.015
+ gene product:	putative fimbrial protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mutS                                                                          21
+	Ec_sgrS	173	3' AGUGUGUACUACGUCCGUUC 5'	154
+	       		    |:| ||||||||| |||:    
+	mutS   	31	5' ACGCCCAUGAUGCA-GCAGU 3'	49
+
+Energy:			-10.78
+p-value:		0.016
+ gene product:	methyl-directed mismatch repair protein; methyl-directed mismatch repair
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yfjM                                                                          22
+	Ec_sgrS	22	3' ACCCCGUGGGGG 5'	11
+	       		    |||||||:||    
+	yfjM   	-53	5' GGGGGCACUCCA 3'	-42
+
+Energy:			-10.75
+p-value:		0.016
+ gene product:	CP4-57 prophage; uncharacterized protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yghU                                                                          23
+	Ec_sgrS	209	3' AUUAGACGACCGCCC 5'	195
+	       		    |||| ||||||||    
+	yghU   	46	5' AAAUCCGCUGGCGGC 3'	60
+
+Energy:			-10.68
+p-value:		0.016
+ gene product:	putative S-transferase; REP221 (repetitive extragenic palindromic) element; contains 2 REP sequences
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yibN                                                                          24
+	Ec_sgrS	139	3' ACGCCAGUAGGG--UGACG 5'	123
+	       		    || ||||||||  ||||    
+	yibN   	25	5' GGCCGUCAUCCCAUACUGA 3'	43
+
+Energy:			-10.67
+p-value:		0.017
+ gene product:	putative rhodanese-related sulfurtransferase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ygaP                                                                          25
+	Ec_sgrS	174	3' AGU-GUGUACUACGUCCGUUC- 5'	154
+	       		   ||: |:|||||||||  ||||    
+	ygaP   	19	5' UCGCCGCAUGAUGCA--CAAGA 3'	38
+
+Energy:			-10.53
+p-value:		0.018
+ gene product:	DUF2892 family inner membrane rhodanese; REP192 (repetitive extragenic palindromic) element; contains 1 REP sequences
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ptsG                                                                          26
+	Ec_sgrS	187	3' U-GUGGUUAUGAGUCAGUGUGU 5'	167
+	       		   | |||| ||||||||  :|||    
+	ptsG   	-29	5' AGCACCCAUACUCAGGAGCAC- 3'	-9
+
+Energy:			-10.51
+p-value:		0.018
+ gene product:	fused glucose-specific PTS enzymes: IIB component/IIC component; PTS system, glucose-specific IIBC component
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+fetA                                                                          27
+	Ec_sgrS	203	3' CGACCGCCCACUAA 5'	190
+	       		    ||||||||||||    
+	fetA   	45	5' UCUGGCGGGUGAUG 3'	58
+
+Energy:			-10.49
+p-value:		0.018
+ gene product:	iron export ABC transporter ATPase; peroxide resistance protein; putative ATP-binding component of a transport system
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+atoC                                                                          28
+	Ec_sgrS	81	3' GGUUGCGUUGGUCGUGU 5'	65
+	       		    |::|||||||  |||:   
+	atoC   	-55	5' ACGGCGCAACCUUCACG 3'	-39
+
+Energy:			-10.41
+p-value:		0.019
+ gene product:	fused response regulator of ato operon, in two-component system with AtoS: response regulator/sigma54 interaction protein; response regulator of ato, ornithine decarboxylase antizyme (sensor ATOS)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yjjB                                                                          29
+	Ec_sgrS	38	3' ACUAUUUUGACUGCGU-ACCCC 5'	18
+	       		   ||||:: ||||||| | | |||   
+	yjjB   	-31	5' UGAUGGCACUGACG-AUUUGGG 3'	-11
+
+Energy:			-10.35
+p-value:		0.020
+ gene product:	DUF3815 family inner membrane protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+torD                                                                          30
+	Ec_sgrS	77	3' GCG-UUGGUCGUGUUGA 5'	62
+	       		   ||| :| |||||||||    
+	torD   	8	5' CGCUGA-CAGCACAACA 3'	23
+
+Energy:			-10
+p-value:		0.023
+ gene product:	TorA-maturation chaperone; part of trimethylamine-N-oxide oxidoreductase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hyaF                                                                          31
+	Ec_sgrS	83	3' UGG---UUGCGUUGGUCGUG-U 5'	65
+	       		   :||   ||||||||| | || |   
+	hyaF   	30	5' GCCAGGAACGCAACC-GAACGA 3'	50
+
+Energy:			-9.93
+p-value:		0.024
+ gene product:	hydrogenase-1 protein nickel incorporation factor; nickel incorporation into hydrogenase-1 proteins
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+lpp                                                                           32
+	Ec_sgrS	207	3' UAGACGACCGCCCAC 5'	193
+	       		    ||||||||| |||    
+	lpp    	47	5' CUCUGCUGGCAGGU- 3'	60
+
+Energy:			-9.93
+p-value:		0.024
+ gene product:	murein lipoprotein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+polB                                                                          33
+	Ec_sgrS	169	3' UGUACUACGUCCGUUCAGU 5'	151
+	       		   :|:||: |||||||:||:    
+	polB   	-2	5' GCGUGGCGCAGGCAGGUUU 3'	17
+
+Energy:			-9.86
+p-value:		0.025
+ gene product:	DNA polymerase II
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+glnB                                                                          34
+	Ec_sgrS	117	3' AGGAAGUUCGUACCA 5'	103
+	       		    ||||||||| |||    
+	glnB   	28	5' CCCUUCAAGC-UGGA 3'	41
+
+Energy:			-9.82
+p-value:		0.026
+ gene product:	regulatory protein P-II for glutamine synthetase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ada                                                                           35
+	Ec_sgrS	90	3' CUGCGAAUUGGUUGCG 5'	75
+	       		    |:|||||||::|||    
+	ada    	14	5' CAUGCUUAACUGACGA 3'	29
+
+Energy:			-9.75
+p-value:		0.026
+ gene product:	fused DNA-binding transcriptional dual regulator/O6-methylguanine-DNA methyltransferase; O6-methylguanine-DNA methyltransferase; transcription activator/repressor
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+phnP                                                                          36
+	Ec_sgrS	26	3' GCGUACCCCGU 5'	16
+	       		    |||||||||    
+	phnP   	51	5' GGCAUGGGGC- 3'	60
+
+Energy:			-9.72
+p-value:		0.027
+ gene product:	5-phospho-alpha-D-ribosyl 1,2-cyclic phosphate phosphodiesterase; phosphonate metabolism
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yfdQ                                                                          37
+	Ec_sgrS	84	3' UUG-GU-UGCGUUGGUCGUG 5'	66
+	       		   ||| :| |||||||| |||    
+	yfdQ   	10	5' AACUUAGACGCAACC-GCAA 3'	28
+
+Energy:			-9.67
+p-value:		0.027
+ gene product:	CPS-53 (KpLE1) prophage; uncharacterized protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+glyQ                                                                          38
+	Ec_sgrS	79	3' UUGCGUUGGUCGUGUUG 5'	63
+	       		    |||:| |||||||:|    
+	glyQ   	-22	5' CACGUAUCCAGCACGAA 3'	-6
+
+Energy:			-9.54
+p-value:		0.029
+ gene product:	glycine tRNA synthetase, alpha subunit
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ycjP                                                                          39
+	Ec_sgrS	180	3' AUGAGUCAGUGUGU 5'	167
+	       		    ||||||||:||:    
+	ycjP   	20	5' CACUCAGUCGCAUC 3'	33
+
+Energy:			-9.53
+p-value:		0.029
+ gene product:	putative sugar ABC transporter permease; putative transport system permease protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+nfsB                                                                          40
+	Ec_sgrS	212	3' CAUAUUAGACGACCGC 5'	197
+	       		    |:||||||||||||    
+	nfsB   	-44	5' UUGUAAUCUGCUGGCA 3'	-29
+
+Energy:			-9.37
+p-value:		0.031
+ gene product:	dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive; oxygen-insensitive NAD(P)H nitroreductase
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+lacA                                                                          41
+	Ec_sgrS	166	3' ACUACGUCCGUUCA 5'	153
+	       		    || |||||||||    
+	lacA   	28	5' AGA-GCAGGCAAGC 3'	40
+
+Energy:			-9.34
+p-value:		0.032
+ gene product:	thiogalactoside acetyltransferase; REP30 (repetitive extragenic palindromic) element; contains 1 REP sequences
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+fimE                                                                          42
+	Ec_sgrS	172	3' GUGUGUACUACGUCCGUUCAG 5'	152
+	       		    :| |||||||||||| :||:   
+	fimE   	39	5' GGC-CAUGAUGCAGGC-GGUU 3'	57
+
+Energy:			-9.33
+p-value:		0.032
+ gene product:	tyrosine recombinase/inversion of on/off regulator of fimA; recombinase involved in phase variation; regulator for fimA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+modA                                                                          43
+	Ec_sgrS	64	3' UGAAGCGACAGCG-CCA 5'	49
+	       		    :||||||||:|| ||    
+	modA   	44	5' CUUUCGCUGUUGCUGG- 3'	59
+
+Energy:			-9.14
+p-value:		0.035
+ gene product:	molybdate ABC transporter periplasmic binding protein; chlorate resistance protein; molybdate-binding periplasmic protein; permease; periplasmic-binding component of ABC superfamily
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yehW                                                                          44
+	Ec_sgrS	209	3' AUUAGACGACCGCCC 5'	195
+	       		    :|||||||||:||    
+	yehW   	-26	5' GGAUCUGCUGGUGGA 3'	-12
+
+Energy:			-9.14
+p-value:		0.035
+ gene product:	putative ABC transporter permease; putative transport system permease protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+idnK                                                                          45
+	Ec_sgrS	202	3' GACCGCCCACUA 5'	191
+	       		    ||||||||||    
+	idnK   	1	5' AUGGCGGGUGAA 3'	12
+
+Energy:			-8.61
+p-value:		0.044
+ gene product:	D-gluconate kinase, thermosensitive
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+mdtO                                                                          46
+	Ec_sgrS	206	3' AGACGACCGCC 5'	196
+	       		    |||||||||    
+	mdtO   	39	5' GCUGCUGGCGU 3'	49
+
+Energy:			-8.39
+p-value:		0.048
+ gene product:	membrane translocase (MDR) of MdtNOP efflux pump, PET family; putative enzyme
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+nadB                                                                          47
+	Ec_sgrS	173	3' AGUG-UGUACUACG-UCCGU 5'	156
+	       		    ||| ||||||||| | ||    
+	nadB   	-54	5' GCACAACAUGAUGCUAUGCU 3'	-35
+
+Energy:			-8.38
+p-value:		0.048
+ gene product:	quinolinate synthase, L-aspartate oxidase (B protein) subunit; quinolinate synthetase, B protein
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+yhiN                                                                          48
+	Ec_sgrS	205	3' GACGACCGCCCAC 5'	193
+	       		    ||| |||||||    
+	yhiN   	35	5' GUGC-GGCGGGUA 3'	46
+
+Energy:			-8.32
+p-value:		0.049
+ gene product:	putative oxidoreductase
+
+

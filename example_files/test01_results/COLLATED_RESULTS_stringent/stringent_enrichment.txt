@@ -1,0 +1,13 @@
+1.35336817082298													
+10	1	1	1	1									
+Entrez GeneID	CopraRNA_pValue	Locustag	GeneName		IntaRNA energy	IntaRNA p-Value	start mRNA	end mRNA	start ncRNA	end ncRNA	2.34  topological domain:Periplasmic	2.08  topological domain:Cytoplasmic	1.7  transmembrane region
+948701	0.001	b4184	b4184 - yjfL	b4184 - yjfL	-100	0	1	83	1	83	1	1	1
+945892	0.001	b1312	b1312 - ycjP	b1312 - ycjP	-100	0	1	83	1	83	1	1	1
+946366	0.001	b1785	b1785 - yeaI	b1785 - yeaI	-100	0	1	83	1	83	1	1	1
+944836	0.001	b0128	b0128 - yadH	b0128 - yadH	-100	0	1	83	1	83	1	1	1
+948548	0.001	b4036	b4036 - lamB	b4036 - lamB	-100	0	1	83	1	83	1	0	1
+945621	0.001	b0810	b0810 - glnP	b0810 - glnP	-100	0	1	83	1	83	1	1	1
+949028	0.001	b2128	b2128 - yehW	b2128 - yehW	-100	0	1	83	1	83	1	1	1
+947716	0.001	b2983	b2983 - yghQ	b2983 - yghQ	-100	0	1	83	1	83	1	1	1
+945651	0.001	b1101	b1101 - ptsG	b1101 - ptsG	-100	0	1	83	1	83	1	1	1
+947462	0.001	b2966	b2966 - yqgA	b2966 - yqgA	-100	0	1	83	1	83	0	0	1
