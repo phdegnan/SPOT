@@ -233,10 +233,10 @@ folder example_files. The following examples correspond to the four
 provided test datasets.
 
 test01 - Examine entire E. coli str. K12 genome for SgrS sRNA target
-mRNAs. This folder only has the sRNA sequence in a fasta file, uses the
-default settings and retrieves the genome sequence for E. coli from
-GenBank. The final option is to have an email sent to the user after the
-job has completed.
+mRNAs. This folder only has the sRNA sequence in a fasta file, uses the 
+individual program default SEED size and significance settings and 
+retrieves the genome sequence for E. coli from GenBank. The final 
+option is to have an email sent to the user after the job has completed.
 
 $ cd test01
 $ ls
@@ -252,7 +252,7 @@ matches among a set of defined differentially expressed genes
 (sgrS_diff.txt). In this case the user has a fasta file and a
 traditional GenBank protein translation file (PTT). The user also
 indicates a larger window size 150 nt upstream of the CDS start position
-and 100 nt downstream.
+and 100 nt downstream to search for binding sites. 
 
 $ cd test02
 $ ls
